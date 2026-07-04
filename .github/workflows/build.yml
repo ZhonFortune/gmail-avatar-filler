@@ -3,7 +3,8 @@ name: Build Google Contacts Avatar VCF
 on:
   push:
     tags:
-      - "20[0-9][0-9]-[0-1][0-9]-[0-3][0-9]"
+      - "20[0-9][0-9].[0-9][0-9].[0-9][0-9]"
+      - "20[0-9][0-9].[0-9][0-9].[0-9][0-9].*"
 
 permissions:
   contents: write
@@ -16,6 +17,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Validate release tag
+        run: |
+          tag="${GITHUB_REF_NAME}"
+
+          if [[ ! "$tag" =~ ^([0-9]{4})\.([0-9]{2})\.([0-9]{2})(\.[A-Za-z0-9][A-Za-z0-9._-]*)?$ ]]; then
+            echo "Invalid release tag: $tag"
+            echo "Expected YYYY.MM.DD or YYYY.MM.DD.<suffix>."
+            exit 1
+          fi
+
+          date_part="${BASH_REMATCH[1]}-${BASH_REMATCH[2]}-${BASH_REMATCH[3]}"
+          normalized="$(date -u -d "$date_part" +%Y-%m-%d 2>/dev/null || true)"
+
+          if [[ "$normalized" != "$date_part" ]]; then
+            echo "Invalid release date: $date_part"
+            exit 1
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
