@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zhonfortune.github.io/gmail-avatar-filler/sitemap.xml

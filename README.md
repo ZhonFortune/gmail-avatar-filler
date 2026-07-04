@@ -50,9 +50,10 @@ Commands:
 ```bash
 npm install
 npm run build
+npm run build:vcf
 ```
 
-The generated file is written to `dist/google-contacts-avatar.vcf`.
+The site is written to `dist/`. The generated contact file is written to `dist/google-contacts-avatar.vcf`.
 
 <br>
 

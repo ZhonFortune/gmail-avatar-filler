@@ -67,7 +67,7 @@ Use the upstream logo slug when possible. If no logo is available, the build wil
 Run:
 
 ```bash
-npm run build
+npm run build:vcf
 ```
 
 This validates brand data and writes `dist/google-contacts-avatar.vcf`.

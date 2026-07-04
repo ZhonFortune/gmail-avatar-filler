@@ -67,7 +67,7 @@
 运行：
 
 ```bash
-npm run build
+npm run build:vcf
 ```
 
 该命令会校验品牌数据，并输出 `dist/google-contacts-avatar.vcf`。

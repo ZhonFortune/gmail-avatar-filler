@@ -5,7 +5,8 @@
   "description": "Generate Gmail contact avatars from brand metadata and open vector logo sources.",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build && node scripts/build.js",
+    "build": "vite build",
+    "build:all": "vite build && node scripts/build.js",
     "build:icons": "node scripts/build-icon-index.js",
     "build:vcf": "node scripts/build.js",
     "preview": "vite preview --host 0.0.0.0"
