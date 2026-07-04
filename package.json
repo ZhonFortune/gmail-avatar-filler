@@ -8,6 +8,7 @@
     "build": "vite build",
     "build:all": "vite build && node scripts/build.js",
     "build:icons": "node scripts/build-icon-index.js",
+    "build:site-data": "node scripts/build-site-data.js",
     "build:vcf": "node scripts/build.js",
     "preview": "vite preview --host 0.0.0.0"
   },
