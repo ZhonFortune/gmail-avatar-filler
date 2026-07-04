@@ -17,6 +17,10 @@ const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/u;
 const domainPattern = /^(?!-)(?:[a-z0-9-]{1,63}\.)+[a-z]{2,63}$/u;
 const prefixPattern = /^[a-z0-9._%+-]+$/u;
 
+function logStep(message) {
+  console.log(`[build:vcf] ${message}`);
+}
+
 function assertString(value, field, index) {
   if (typeof value !== "string" || value.trim().length === 0) {
     throw new Error(`Brand #${index + 1} has an invalid ${field}.`);
@@ -45,16 +49,30 @@ function escapeVCardText(value) {
   return value.replace(/\\/gu, "\\\\").replace(/,/gu, "\\,").replace(/;/gu, "\\;").replace(/\n/gu, "\\n");
 }
 
-function createVCard({ name, email, svg }) {
+function foldVCardLine(line) {
+  const maxLength = 75;
+  const chunks = [];
+
+  for (let index = 0; index < line.length; index += maxLength) {
+    chunks.push(`${index === 0 ? "" : " "}${line.slice(index, index + maxLength)}`);
+  }
+
+  return chunks.join("\n");
+}
+
+function createVCard({ name, domain, emails, svg }) {
   const base64Svg = Buffer.from(svg, "utf8").toString("base64");
+  const emailLines = emails.map((email) => `EMAIL;TYPE=INTERNET:${email}`);
 
   return [
     "BEGIN:VCARD",
     "VERSION:3.0",
     `FN:${escapeVCardText(name)}`,
-    `N:${escapeVCardText(name)};;;;`,
-    `EMAIL;TYPE=INTERNET:${email}`,
-    `PHOTO;ENCODING=b;TYPE=SVG:${base64Svg}`,
+    `N:;${escapeVCardText(name)};;;`,
+    `ORG:${escapeVCardText(name)}`,
+    `URL:https://${domain}`,
+    ...emailLines,
+    foldVCardLine(`PHOTO;ENCODING=b;TYPE=SVG:${base64Svg}`),
     "END:VCARD"
   ].join("\n");
 }
@@ -93,6 +111,9 @@ function normalizeBrand(rawBrand, index) {
 }
 
 async function main() {
+  const startedAt = Date.now();
+  logStep("Reading brand data and icon index...");
+
   const brands = JSON.parse(await readFile(brandsPath, "utf8"));
   const iconIndex = JSON.parse(await readFile(iconIndexPath, "utf8"));
 
@@ -100,33 +121,47 @@ async function main() {
     throw new Error("data/brands.json must contain an array.");
   }
 
+  logStep(`Loaded ${brands.length} brand records.`);
+  logStep("Validating brand data...");
+
   const normalizedBrands = brands.map((rawBrand, index) => ({
     rawBrand,
     brand: normalizeBrand(rawBrand, index)
   }));
 
+  const totalEmails = normalizedBrands.reduce((total, { brand }) => total + brand.emails.length, 0);
+  logStep(`Validated ${normalizedBrands.length} brand contacts and ${totalEmails} email addresses.`);
+  logStep("Resolving logos and generating vCards...");
+
   const cards = [];
 
-  for (const { rawBrand, brand } of normalizedBrands) {
+  for (const [index, { rawBrand, brand }] of normalizedBrands.entries()) {
+    const label = `${index + 1}/${normalizedBrands.length} ${brand.name} <${brand.domain}>`;
+    logStep(`Resolving ${label}...`);
+
     const icon = await resolveIconSvg(axios, rawBrand, iconIndex);
     const svg = icon?.svg || createInitialsAvatarSvg(rawBrand);
 
-    for (const email of brand.emails) {
-      cards.push(
-        createVCard({
-          name: brand.name,
-          email,
-          svg
-        })
-      );
-    }
+    cards.push(
+      createVCard({
+        name: brand.name,
+        domain: brand.domain,
+        emails: brand.emails,
+        svg
+      })
+    );
+
+    logStep(`Generated 1 contact with ${brand.emails.length} emails for ${brand.name} using ${icon?.provider || "initials fallback"}.`);
   }
 
+  logStep("Writing output files...");
   await mkdir(distDataDir, { recursive: true });
   await copyFile(brandsPath, path.join(distDataDir, "brands.json"));
   await copyFile(iconIndexPath, path.join(distDataDir, "icon-index.json"));
   await writeFile(outputPath, `${cards.join("\n")}\n`, "utf8");
-  console.log(`Generated ${cards.length} contacts at ${path.relative(rootDir, outputPath)}.`);
+
+  const elapsedSeconds = ((Date.now() - startedAt) / 1000).toFixed(1);
+  logStep(`Generated ${cards.length} brand contacts with ${totalEmails} email addresses at ${path.relative(rootDir, outputPath)} in ${elapsedSeconds}s.`);
 }
 
 main().catch((error) => {

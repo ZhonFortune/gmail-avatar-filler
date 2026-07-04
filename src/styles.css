@@ -77,26 +77,13 @@ svg {
   letter-spacing: 0;
 }
 
-.brand-mark {
+.brand-icon {
   width: 32px;
   height: 32px;
   flex: 0 0 auto;
   border-radius: 12px;
-  color: #fff;
-  background: #2563eb;
-  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.25);
-  display: grid;
-  place-items: center;
-}
-
-.brand-mark svg {
-  width: 22px;
-  height: 22px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.8;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  display: block;
+  object-fit: contain;
 }
 
 .nav-actions {
@@ -432,6 +419,18 @@ svg {
   contain: strict;
 }
 
+.brand-avatar-loading {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, rgba(229, 231, 235, 0), rgba(255, 255, 255, 0.82), rgba(229, 231, 235, 0)),
+    #eef2f7;
+  background-size: 180% 100%, auto;
+  box-shadow: inset 0 0 0 1px #e5e7eb;
+  animation: avatar-loading 1.2s ease-in-out infinite;
+}
+
 .brand-avatar-image {
   position: absolute;
   inset: 0;
@@ -444,6 +443,16 @@ svg {
   object-position: 50% 50%;
   border: 0;
   transform: translateZ(0);
+}
+
+@keyframes avatar-loading {
+  0% {
+    background-position: 120% 0, 0 0;
+  }
+
+  100% {
+    background-position: -80% 0, 0 0;
+  }
 }
 
 .brand-copy {

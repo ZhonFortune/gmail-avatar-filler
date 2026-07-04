@@ -222,6 +222,19 @@ function readAttribute(attrs, name) {
   return attrs.match(new RegExp(`\\s${name}=["']([^"']+)["']`, "iu"))?.[1] || "";
 }
 
+function readFillAttribute(attrs) {
+  const directFill = readAttribute(attrs, "fill");
+
+  if (directFill) {
+    return directFill;
+  }
+
+  const style = readAttribute(attrs, "style");
+  const styleFill = style.match(/(?:^|;)\s*fill\s*:\s*([^;]+)/iu)?.[1]?.trim() || "";
+
+  return styleFill;
+}
+
 function readLengthAttribute(attrs, name, fallback = null) {
   const value = readAttribute(attrs, name);
 
@@ -250,12 +263,42 @@ function shapeCoversCanvas(tag, attrs, box) {
     return fullWidth && fullHeight && nearlyEqual(Number(x), box.x) && nearlyEqual(Number(y), box.y);
   }
 
+  if (tag === "circle") {
+    const cx = readLengthAttribute(attrs, "cx");
+    const cy = readLengthAttribute(attrs, "cy");
+    const radius = readLengthAttribute(attrs, "r");
+    const centerX = box.x + box.width / 2;
+    const centerY = box.y + box.height / 2;
+    const requiredRadius = Math.sqrt((box.width / 2) ** 2 + (box.height / 2) ** 2);
+
+    return nearlyEqual(Number(cx), centerX) && nearlyEqual(Number(cy), centerY) && Number(radius) >= requiredRadius - 1;
+  }
+
+  if (tag === "path") {
+    const pathData = readAttribute(attrs, "d");
+
+    if (/[acsqt]/iu.test(pathData)) {
+      return false;
+    }
+
+    const numbers = [...pathData.matchAll(/-?\d*\.?\d+(?:e[-+]?\d+)?/giu)].map((match) => Number(match[0]));
+
+    if (numbers.length < 4 || numbers.length > 12 || !numbers.every(Number.isFinite) || !/z/iu.test(pathData)) {
+      return false;
+    }
+
+    const horizontal = Math.max(...numbers.filter((_, index) => index % 2 === 0)) - Math.min(...numbers.filter((_, index) => index % 2 === 0));
+    const vertical = Math.max(...numbers.filter((_, index) => index % 2 === 1)) - Math.min(...numbers.filter((_, index) => index % 2 === 1));
+
+    return horizontal >= box.width - 1 && vertical >= box.height - 1;
+  }
+
   return false;
 }
 
 function extractSolidBackground(inner, box, sourceUrl) {
   const trimmed = inner.trimStart();
-  const shape = trimmed.match(/^<(rect)\b([^>]*)\/?>/iu);
+  const shape = trimmed.match(/^<(rect|circle|path)\b([^>]*)\/?>/iu);
   const fallback = sourceUrl.includes("_dark.svg") ? avatarSpec.darkBackground : avatarSpec.defaultBackground;
 
   if (!shape || !shapeCoversCanvas(shape[1].toLowerCase(), shape[2], box)) {
@@ -265,9 +308,9 @@ function extractSolidBackground(inner, box, sourceUrl) {
     };
   }
 
-  const fill = readAttribute(shape[2], "fill");
+  const fill = readFillAttribute(shape[2]);
 
-  if (!fill || fill === "none" || fill === "transparent") {
+  if (!fill || fill === "none" || fill === "transparent" || fill.startsWith("url(")) {
     return {
       background: fallback,
       inner

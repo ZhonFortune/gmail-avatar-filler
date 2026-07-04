@@ -63,6 +63,7 @@ const iconState = reactive({});
 const previewLimit = 12;
 
 const githubRepo = "ZhonFortune/gmail-avatar-filler";
+const faviconUrl = `${import.meta.env.BASE_URL}favicon.ico`;
 const releaseUrl = `https://github.com/${githubRepo}/releases/latest/download/google-contacts-avatar.vcf`;
 const repoUrl = `https://github.com/${githubRepo}`;
 
@@ -121,6 +122,14 @@ function fallbackAvatar(brand) {
   return svgToDataUri(createInitialsAvatarSvg(brand));
 }
 
+function getIconState(brand) {
+  return iconState[brand.domain] || {
+    loading: true,
+    url: "",
+    provider: ""
+  };
+}
+
 function pickRandomBrands(items, limit) {
   const pool = [...items];
 
@@ -165,7 +174,7 @@ async function loadBrandIcon(brand) {
 
   iconState[key] = {
     loading: true,
-    url: fallbackAvatar(brand),
+    url: "",
     provider: ""
   };
 
@@ -242,9 +251,7 @@ watch(
     <nav class="nav">
       <div class="nav-inner">
         <a class="brand" href="#">
-          <span class="brand-mark" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail-check" aria-hidden="true" class="lucide lucide-mail-check w-5 h-5"><path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"></path><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path><path d="m16 19 2 2 4-4"></path></svg>
-          </span>
+          <img class="brand-icon" :src="faviconUrl" alt="" width="32" height="32" decoding="async" aria-hidden="true" />
           <span>{{ text.title }}</span>
         </a>
 
@@ -327,9 +334,15 @@ watch(
           <div v-else-if="visibleBrands.length" class="brand-grid">
             <article v-for="brand in visibleBrands" :key="brand.domain" class="brand-card">
               <figure class="brand-avatar">
+                <div
+                  v-if="getIconState(brand).loading || !getIconState(brand).url"
+                  class="brand-avatar-loading"
+                  aria-hidden="true"
+                ></div>
                 <img
+                  v-else
                   class="brand-avatar-image"
-                  :src="iconState[brand.domain]?.url || fallbackAvatar(brand)"
+                  :src="getIconState(brand).url"
                   :alt="brand.name"
                   width="56"
                   height="56"
@@ -343,8 +356,8 @@ watch(
                   {{ createEmails(brand)[0] }}
                   <span v-if="createEmails(brand).length > 1">(+{{ createEmails(brand).length - 1 }})</span>
                 </p>
-                <small v-if="iconState[brand.domain]?.provider">
-                  {{ text.sourceLabel }}: {{ iconState[brand.domain].provider }}
+                <small v-if="getIconState(brand).provider">
+                  {{ text.sourceLabel }}: {{ getIconState(brand).provider }}
                 </small>
               </div>
             </article>
