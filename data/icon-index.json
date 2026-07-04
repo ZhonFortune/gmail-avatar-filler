@@ -1,0 +1,1098 @@
+{
+  "generated_at": "2026-07-04T14:41:54.423Z",
+  "sources": {
+    "svgl": {
+      "adobe": [
+        "static/library/adobe.svg"
+      ],
+      "airbnb": [
+        "static/library/airbnb.svg"
+      ],
+      "apple": [
+        "static/library/apple.svg",
+        "static/library/apple_dark.svg"
+      ],
+      "atlassian": [
+        "static/library/atlassian.svg"
+      ],
+      "auth0": [
+        "static/library/auth0.svg"
+      ],
+      "aws": [
+        "static/library/aws_dark.svg",
+        "static/library/aws_light.svg"
+      ],
+      "azure": [
+        "static/library/azure.svg"
+      ],
+      "bitwarden": [
+        "static/library/bitwarden.svg"
+      ],
+      "clickup": [
+        "static/library/clickup.svg"
+      ],
+      "cloudflare": [
+        "static/library/cloudflare.svg"
+      ],
+      "cohere": [
+        "static/library/cohere.svg",
+        "static/library/cohere_wordmark.svg"
+      ],
+      "convex": [
+        "static/library/convex.svg",
+        "static/library/convex_wordmark_dark.svg",
+        "static/library/convex_wordmark_light.svg"
+      ],
+      "cypress": [
+        "static/library/cypress.svg"
+      ],
+      "deno": [
+        "static/library/deno.svg",
+        "static/library/deno_dark.svg",
+        "static/library/deno_wordmark.svg",
+        "static/library/deno_wordmark_dark.svg"
+      ],
+      "discord": [
+        "static/library/discord.svg"
+      ],
+      "docker": [
+        "static/library/docker.svg"
+      ],
+      "dropbox": [
+        "static/library/dropbox.svg",
+        "static/library/dropbox_wordmark.svg",
+        "static/library/dropbox_wordmark_dark.svg"
+      ],
+      "ebay": [
+        "static/library/ebay.svg"
+      ],
+      "figma": [
+        "static/library/figma.svg"
+      ],
+      "firebase": [
+        "static/library/firebase.svg"
+      ],
+      "fly": [
+        "static/library/fly.svg"
+      ],
+      "github": [
+        "static/library/github_dark.svg",
+        "static/library/github_light.svg",
+        "static/library/github_wordmark_dark.svg",
+        "static/library/github_wordmark_light.svg"
+      ],
+      "gitlab": [
+        "static/library/gitlab.svg"
+      ],
+      "google-cloud": [
+        "static/library/google-cloud.svg"
+      ],
+      "google": [
+        "static/library/google.svg"
+      ],
+      "grafana": [
+        "static/library/grafana.svg"
+      ],
+      "groq": [
+        "static/library/groq.svg",
+        "static/library/groq_wordmark_dark.svg",
+        "static/library/groq_wordmark_light.svg"
+      ],
+      "heroku": [
+        "static/library/heroku.svg"
+      ],
+      "hoppscotch": [
+        "static/library/hoppscotch.svg"
+      ],
+      "ibm": [
+        "static/library/ibm.svg"
+      ],
+      "jetbrains": [
+        "static/library/jetbrains.svg"
+      ],
+      "kubernetes": [
+        "static/library/kubernetes.svg"
+      ],
+      "lemonsqueezy": [
+        "static/library/lemonsqueezy.svg"
+      ],
+      "linear": [
+        "static/library/linear.svg"
+      ],
+      "linkedin": [
+        "static/library/linkedin.svg"
+      ],
+      "meta": [
+        "static/library/meta.svg"
+      ],
+      "microsoft": [
+        "static/library/microsoft.svg"
+      ],
+      "mintlify": [
+        "static/library/mintlify.svg",
+        "static/library/mintlify_wordmark_dark.svg",
+        "static/library/mintlify_wordmark_light.svg"
+      ],
+      "mistral-ai": [
+        "static/library/mistral-ai_logo.svg",
+        "static/library/mistral-ai_wordmark.svg"
+      ],
+      "neon": [
+        "static/library/neon.svg"
+      ],
+      "netlify": [
+        "static/library/netlify.svg"
+      ],
+      "notion": [
+        "static/library/notion.svg"
+      ],
+      "nuget": [
+        "static/library/nuget.svg"
+      ],
+      "nx": [
+        "static/library/nx_dark.svg",
+        "static/library/nx_light.svg"
+      ],
+      "openai": [
+        "static/library/openai.svg",
+        "static/library/openai_dark.svg",
+        "static/library/openai_wordmark_dark.svg",
+        "static/library/openai_wordmark_light.svg"
+      ],
+      "paypal": [
+        "static/library/paypal.svg"
+      ],
+      "perplexity": [
+        "static/library/perplexity.svg",
+        "static/library/perplexity_wordmark_dark.svg",
+        "static/library/perplexity_wordmark_light.svg"
+      ],
+      "planetscale": [
+        "static/library/planetscale.svg",
+        "static/library/planetscale_dark.svg"
+      ],
+      "playwright": [
+        "static/library/playwright.svg"
+      ],
+      "pnpm": [
+        "static/library/pnpm.svg",
+        "static/library/pnpm_dark.svg",
+        "static/library/pnpm_wordmark_dark.svg",
+        "static/library/pnpm_wordmark_light.svg"
+      ],
+      "posthog": [
+        "static/library/posthog.svg"
+      ],
+      "postman": [
+        "static/library/postman.svg"
+      ],
+      "prisma": [
+        "static/library/prisma.svg",
+        "static/library/prisma_dark.svg"
+      ],
+      "pulumi": [
+        "static/library/pulumi.svg"
+      ],
+      "railway": [
+        "static/library/railway.svg",
+        "static/library/railway_dark.svg"
+      ],
+      "reddit": [
+        "static/library/reddit.svg"
+      ],
+      "redis": [
+        "static/library/redis.svg"
+      ],
+      "replicate": [
+        "static/library/replicate_dark.svg",
+        "static/library/replicate_light.svg"
+      ],
+      "salesforce": [
+        "static/library/salesforce.svg"
+      ],
+      "sentry": [
+        "static/library/sentry.svg"
+      ],
+      "shopify": [
+        "static/library/shopify.svg"
+      ],
+      "slack": [
+        "static/library/slack.svg"
+      ],
+      "spotify": [
+        "static/library/spotify.svg",
+        "static/library/spotify_wordmark.svg"
+      ],
+      "sst": [
+        "static/library/sst.svg"
+      ],
+      "stripe": [
+        "static/library/stripe.svg",
+        "static/library/stripe_wordmark.svg"
+      ],
+      "supabase": [
+        "static/library/supabase.svg",
+        "static/library/supabase_wordmark_dark.svg",
+        "static/library/supabase_wordmark_light.svg"
+      ],
+      "swagger": [
+        "static/library/swagger.svg"
+      ],
+      "terraform": [
+        "static/library/terraform.svg"
+      ],
+      "trello": [
+        "static/library/trello.svg"
+      ],
+      "twitter": [
+        "static/library/twitter.svg"
+      ],
+      "uber": [
+        "static/library/uber_dark.svg",
+        "static/library/uber_light.svg"
+      ],
+      "upstash": [
+        "static/library/upstash.svg"
+      ],
+      "vercel": [
+        "static/library/vercel.svg",
+        "static/library/vercel_dark.svg",
+        "static/library/vercel_wordmark.svg",
+        "static/library/vercel_wordmark_dark.svg"
+      ],
+      "workos": [
+        "static/library/workos.svg"
+      ],
+      "x": [
+        "static/library/x.svg",
+        "static/library/x_dark.svg"
+      ],
+      "youtube": [
+        "static/library/youtube.svg"
+      ],
+      "zoom": [
+        "static/library/zoom.svg"
+      ]
+    },
+    "vectorlogozone": {
+      "1password": [
+        "src/content/logos/1password/1password-ar21.svg",
+        "src/content/logos/1password/1password-icon.svg"
+      ],
+      "adobe": [
+        "src/content/logos/adobe/adobe-ar21.svg",
+        "src/content/logos/adobe/adobe-icon.svg"
+      ],
+      "adyen": [
+        "src/content/logos/adyen/adyen-ar21.svg",
+        "src/content/logos/adyen/adyen-icon.svg"
+      ],
+      "airbnb": [
+        "src/content/logos/airbnb/airbnb-ar21.svg",
+        "src/content/logos/airbnb/airbnb-icon.svg"
+      ],
+      "akamai": [
+        "src/content/logos/akamai/akamai-ar21.svg",
+        "src/content/logos/akamai/akamai-icon.svg"
+      ],
+      "aliexpress": [
+        "src/content/logos/aliexpress/aliexpress-ar21.svg",
+        "src/content/logos/aliexpress/aliexpress-icon.svg"
+      ],
+      "apple": [
+        "src/content/logos/apple/apple-ar21.svg",
+        "src/content/logos/apple/apple-icon.svg"
+      ],
+      "asana": [
+        "src/content/logos/asana/asana-ar21.svg"
+      ],
+      "auth0": [
+        "src/content/logos/auth0/auth0-ar21.svg",
+        "src/content/logos/auth0/auth0-icon.svg"
+      ],
+      "bitbucket": [
+        "src/content/logos/bitbucket/bitbucket-ar21.svg",
+        "src/content/logos/bitbucket/bitbucket-icon.svg",
+        "src/content/logos/bitbucket/bitbucket-official.svg"
+      ],
+      "bitwarden": [
+        "src/content/logos/bitwarden/bitwarden-ar21.svg",
+        "src/content/logos/bitwarden/bitwarden-icon.svg"
+      ],
+      "box": [
+        "src/content/logos/box/box-ar21.svg",
+        "src/content/logos/box/box-icon.svg"
+      ],
+      "browserstack": [
+        "src/content/logos/browserstack/browserstack-ar21.svg",
+        "src/content/logos/browserstack/browserstack-icon.svg"
+      ],
+      "bugsnag": [
+        "src/content/logos/bugsnag/bugsnag-ar21.svg",
+        "src/content/logos/bugsnag/bugsnag-icon.svg"
+      ],
+      "buildkite": [
+        "src/content/logos/buildkite/buildkite-ar21.svg",
+        "src/content/logos/buildkite/buildkite-icon.svg"
+      ],
+      "circleci": [
+        "src/content/logos/circleci/circleci-ar21.svg",
+        "src/content/logos/circleci/circleci-icon.svg"
+      ],
+      "cloudflare": [
+        "src/content/logos/cloudflare/cloudflare-ar21.svg",
+        "src/content/logos/cloudflare/cloudflare-icon.svg",
+        "src/content/logos/cloudflare/cloudflare-official.svg"
+      ],
+      "codacy": [
+        "src/content/logos/codacy/codacy-ar21.svg",
+        "src/content/logos/codacy/codacy-icon.svg"
+      ],
+      "datadoghq": [
+        "src/content/logos/datadoghq/datadoghq-ar21.svg",
+        "src/content/logos/datadoghq/datadoghq-icon.svg"
+      ],
+      "deno": [
+        "src/content/logos/deno/deno-ar21.svg",
+        "src/content/logos/deno/deno-icon.svg"
+      ],
+      "digitalocean": [
+        "src/content/logos/digitalocean/digitalocean-ar21.svg",
+        "src/content/logos/digitalocean/digitalocean-icon.svg",
+        "src/content/logos/digitalocean/digitalocean-official.svg"
+      ],
+      "discord": [
+        "src/content/logos/discord/discord-ar21.svg",
+        "src/content/logos/discord/discord-icon.svg",
+        "src/content/logos/discord/discord-official.svg"
+      ],
+      "docker": [
+        "src/content/logos/docker/docker-ar21.svg",
+        "src/content/logos/docker/docker-icon.svg",
+        "src/content/logos/docker/docker-official.svg"
+      ],
+      "dropbox": [
+        "src/content/logos/dropbox/dropbox-ar21.svg",
+        "src/content/logos/dropbox/dropbox-icon.svg",
+        "src/content/logos/dropbox/dropbox-official.svg"
+      ],
+      "ebay": [
+        "src/content/logos/ebay/ebay-ar21.svg",
+        "src/content/logos/ebay/ebay-icon.svg"
+      ],
+      "fastly": [
+        "src/content/logos/fastly/fastly-ar21.svg",
+        "src/content/logos/fastly/fastly-icon.svg"
+      ],
+      "fauna": [
+        "src/content/logos/fauna/fauna-ar21.svg",
+        "src/content/logos/fauna/fauna-icon.svg"
+      ],
+      "figma": [
+        "src/content/logos/figma/figma-ar21.svg",
+        "src/content/logos/figma/figma-icon.svg"
+      ],
+      "firebase": [
+        "src/content/logos/firebase/firebase-ar21.svg",
+        "src/content/logos/firebase/firebase-icon.svg"
+      ],
+      "github": [
+        "src/content/logos/github/github-ar21.svg",
+        "src/content/logos/github/github-icon.svg"
+      ],
+      "gitlab": [
+        "src/content/logos/gitlab/gitlab-ar21.svg",
+        "src/content/logos/gitlab/gitlab-icon.svg"
+      ],
+      "google": [
+        "src/content/logos/google/google-ar21.svg",
+        "src/content/logos/google/google-icon.svg"
+      ],
+      "grafana": [
+        "src/content/logos/grafana/grafana-ar21.svg",
+        "src/content/logos/grafana/grafana-icon.svg"
+      ],
+      "hashicorp": [
+        "src/content/logos/hashicorp/hashicorp-ar21.svg",
+        "src/content/logos/hashicorp/hashicorp-icon.svg"
+      ],
+      "heroku": [
+        "src/content/logos/heroku/heroku-ar21.svg",
+        "src/content/logos/heroku/heroku-icon.svg"
+      ],
+      "hubspot": [
+        "src/content/logos/hubspot/hubspot-ar21.svg",
+        "src/content/logos/hubspot/hubspot-icon.svg"
+      ],
+      "ibm": [
+        "src/content/logos/ibm/ibm-ar21.svg",
+        "src/content/logos/ibm/ibm-icon.svg"
+      ],
+      "instagram": [
+        "src/content/logos/instagram/instagram-ar21.svg",
+        "src/content/logos/instagram/instagram-icon.svg"
+      ],
+      "intercom": [
+        "src/content/logos/intercom/intercom-ar21.svg",
+        "src/content/logos/intercom/intercom-icon.svg",
+        "src/content/logos/intercom/intercom-official.svg"
+      ],
+      "jenkins": [
+        "src/content/logos/jenkins/jenkins-ar21.svg",
+        "src/content/logos/jenkins/jenkins-icon.svg",
+        "src/content/logos/jenkins/jenkins-official.svg"
+      ],
+      "jetbrains": [
+        "src/content/logos/jetbrains/jetbrains-ar21.svg",
+        "src/content/logos/jetbrains/jetbrains-icon.svg"
+      ],
+      "jfrog": [
+        "src/content/logos/jfrog/jfrog-ar21.svg",
+        "src/content/logos/jfrog/jfrog-icon.svg"
+      ],
+      "kubernetes": [
+        "src/content/logos/kubernetes/kubernetes-ar21.svg",
+        "src/content/logos/kubernetes/kubernetes-icon.svg"
+      ],
+      "linkedin": [
+        "src/content/logos/linkedin/linkedin-ar21.svg",
+        "src/content/logos/linkedin/linkedin-icon.svg"
+      ],
+      "linode": [
+        "src/content/logos/linode/linode-ar21.svg",
+        "src/content/logos/linode/linode-icon.svg"
+      ],
+      "mailchimp": [
+        "src/content/logos/mailchimp/mailchimp-ar21.svg",
+        "src/content/logos/mailchimp/mailchimp-icon.svg"
+      ],
+      "mailgun": [
+        "src/content/logos/mailgun/mailgun-ar21.svg",
+        "src/content/logos/mailgun/mailgun-icon.svg"
+      ],
+      "medium": [
+        "src/content/logos/medium/medium-ar21.svg",
+        "src/content/logos/medium/medium-icon.svg"
+      ],
+      "microsoft": [
+        "src/content/logos/microsoft/microsoft-ar21.svg",
+        "src/content/logos/microsoft/microsoft-icon.svg"
+      ],
+      "monday": [
+        "src/content/logos/monday/monday-ar21.svg",
+        "src/content/logos/monday/monday-icon.svg"
+      ],
+      "mongodb": [
+        "src/content/logos/mongodb/mongodb-ar21.svg",
+        "src/content/logos/mongodb/mongodb-icon.svg"
+      ],
+      "netflix": [
+        "src/content/logos/netflix/netflix-ar21.svg",
+        "src/content/logos/netflix/netflix-icon.svg",
+        "src/content/logos/netflix/netflix-official.svg"
+      ],
+      "netlify": [
+        "src/content/logos/netlify/netlify-ar21.svg",
+        "src/content/logos/netlify/netlify-icon.svg"
+      ],
+      "newrelic": [
+        "src/content/logos/newrelic/newrelic-ar21.svg",
+        "src/content/logos/newrelic/newrelic-icon.svg"
+      ],
+      "npmjs": [
+        "src/content/logos/npmjs/npmjs-ar21.svg",
+        "src/content/logos/npmjs/npmjs-icon.svg"
+      ],
+      "nuget": [
+        "src/content/logos/nuget/nuget-ar21.svg",
+        "src/content/logos/nuget/nuget-icon.svg"
+      ],
+      "okta": [
+        "src/content/logos/okta/okta-ar21.svg",
+        "src/content/logos/okta/okta-icon.svg"
+      ],
+      "oracle": [
+        "src/content/logos/oracle/oracle-ar21.svg",
+        "src/content/logos/oracle/oracle-icon.svg"
+      ],
+      "pagerduty": [
+        "src/content/logos/pagerduty/pagerduty-ar21.svg",
+        "src/content/logos/pagerduty/pagerduty-icon.svg"
+      ],
+      "paypal": [
+        "src/content/logos/paypal/paypal-ar21.svg",
+        "src/content/logos/paypal/paypal-icon.svg"
+      ],
+      "pypi": [
+        "src/content/logos/pypi/pypi-ar21.svg",
+        "src/content/logos/pypi/pypi-icon.svg"
+      ],
+      "reddit": [
+        "src/content/logos/reddit/reddit-ar21.svg",
+        "src/content/logos/reddit/reddit-icon.svg"
+      ],
+      "redis": [
+        "src/content/logos/redis/redis-ar21.svg",
+        "src/content/logos/redis/redis-icon.svg",
+        "src/content/logos/redis/redis-official.svg"
+      ],
+      "rollbar": [
+        "src/content/logos/rollbar/rollbar-ar21.svg",
+        "src/content/logos/rollbar/rollbar-icon.svg"
+      ],
+      "salesforce": [
+        "src/content/logos/salesforce/salesforce-ar21.svg",
+        "src/content/logos/salesforce/salesforce-icon.svg"
+      ],
+      "saucelabs": [
+        "src/content/logos/saucelabs/saucelabs-ar21.svg",
+        "src/content/logos/saucelabs/saucelabs-icon.svg"
+      ],
+      "segment": [
+        "src/content/logos/segment/segment-ar21.svg",
+        "src/content/logos/segment/segment-icon.svg"
+      ],
+      "sendgrid": [
+        "src/content/logos/sendgrid/sendgrid-ar21.svg",
+        "src/content/logos/sendgrid/sendgrid-icon.svg"
+      ],
+      "serverless": [
+        "src/content/logos/serverless/serverless-ar21.svg",
+        "src/content/logos/serverless/serverless-icon.svg"
+      ],
+      "shopify": [
+        "src/content/logos/shopify/shopify-ar21.svg",
+        "src/content/logos/shopify/shopify-icon.svg"
+      ],
+      "slack": [
+        "src/content/logos/slack/slack-ar21.svg",
+        "src/content/logos/slack/slack-icon.svg"
+      ],
+      "snowflake": [
+        "src/content/logos/snowflake/snowflake-ar21.svg",
+        "src/content/logos/snowflake/snowflake-icon.svg"
+      ],
+      "splunk": [
+        "src/content/logos/splunk/splunk-ar21.svg",
+        "src/content/logos/splunk/splunk-icon.svg"
+      ],
+      "spotify": [
+        "src/content/logos/spotify/spotify-ar21.svg",
+        "src/content/logos/spotify/spotify-icon.svg"
+      ],
+      "stripe": [
+        "src/content/logos/stripe/stripe-ar21.svg",
+        "src/content/logos/stripe/stripe-icon.svg"
+      ],
+      "supabase": [
+        "src/content/logos/supabase/supabase-ar21.svg",
+        "src/content/logos/supabase/supabase-icon.svg"
+      ],
+      "trello": [
+        "src/content/logos/trello/trello-ar21.svg",
+        "src/content/logos/trello/trello-icon.svg",
+        "src/content/logos/trello/trello-official.svg"
+      ],
+      "twitter": [
+        "src/content/logos/twitter/twitter-ar21.svg",
+        "src/content/logos/twitter/twitter-icon.svg",
+        "src/content/logos/twitter/twitter-official.svg"
+      ],
+      "vercel": [
+        "src/content/logos/vercel/vercel-ar21.svg",
+        "src/content/logos/vercel/vercel-icon.svg"
+      ],
+      "x": [
+        "src/content/logos/x/x-ar21.svg",
+        "src/content/logos/x/x-icon.svg"
+      ],
+      "yarnpkg": [
+        "src/content/logos/yarnpkg/yarnpkg-ar21.svg",
+        "src/content/logos/yarnpkg/yarnpkg-icon.svg"
+      ],
+      "youtube": [
+        "src/content/logos/youtube/youtube-ar21.svg",
+        "src/content/logos/youtube/youtube-icon.svg"
+      ],
+      "zendesk": [
+        "src/content/logos/zendesk/zendesk-ar21.svg",
+        "src/content/logos/zendesk/zendesk-icon.svg"
+      ]
+    },
+    "gilbarbara": {
+      "adobe": [
+        "logos/adobe-icon.svg",
+        "logos/adobe.svg"
+      ],
+      "adyen": [
+        "logos/adyen.svg"
+      ],
+      "airbnb": [
+        "logos/airbnb-icon.svg",
+        "logos/airbnb.svg"
+      ],
+      "akamai": [
+        "logos/akamai.svg"
+      ],
+      "anthropic": [
+        "logos/anthropic-icon.svg",
+        "logos/anthropic.svg"
+      ],
+      "apple": [
+        "logos/apple.svg"
+      ],
+      "asana": [
+        "logos/asana-icon.svg",
+        "logos/asana.svg"
+      ],
+      "atlassian": [
+        "logos/atlassian.svg"
+      ],
+      "auth0": [
+        "logos/auth0-icon.svg",
+        "logos/auth0.svg"
+      ],
+      "aws": [
+        "logos/aws.svg"
+      ],
+      "bitbucket": [
+        "logos/bitbucket.svg"
+      ],
+      "bitrise": [
+        "logos/bitrise-icon.svg",
+        "logos/bitrise.svg"
+      ],
+      "box": [
+        "logos/box.svg"
+      ],
+      "braze": [
+        "logos/braze-icon.svg",
+        "logos/braze.svg"
+      ],
+      "browserstack": [
+        "logos/browserstack.svg"
+      ],
+      "bugsnag": [
+        "logos/bugsnag.svg"
+      ],
+      "buildkite": [
+        "logos/buildkite-icon.svg",
+        "logos/buildkite.svg"
+      ],
+      "chargebee": [
+        "logos/chargebee-icon.svg",
+        "logos/chargebee.svg"
+      ],
+      "chromatic": [
+        "logos/chromatic-icon.svg",
+        "logos/chromatic.svg"
+      ],
+      "circleci": [
+        "logos/circleci.svg"
+      ],
+      "cloudflare": [
+        "logos/cloudflare-icon.svg",
+        "logos/cloudflare.svg"
+      ],
+      "coda": [
+        "logos/coda-icon.svg",
+        "logos/coda.svg"
+      ],
+      "codacy": [
+        "logos/codacy.svg"
+      ],
+      "codecov": [
+        "logos/codecov-icon.svg",
+        "logos/codecov.svg"
+      ],
+      "coveralls": [
+        "logos/coveralls.svg"
+      ],
+      "cypress": [
+        "logos/cypress-icon.svg",
+        "logos/cypress.svg"
+      ],
+      "deno": [
+        "logos/deno.svg"
+      ],
+      "discord": [
+        "logos/discord-icon.svg",
+        "logos/discord.svg"
+      ],
+      "docker": [
+        "logos/docker-icon.svg",
+        "logos/docker.svg"
+      ],
+      "drone": [
+        "logos/drone-icon.svg",
+        "logos/drone.svg"
+      ],
+      "dropbox": [
+        "logos/dropbox.svg"
+      ],
+      "fastly": [
+        "logos/fastly.svg"
+      ],
+      "fauna": [
+        "logos/fauna-icon.svg",
+        "logos/fauna.svg"
+      ],
+      "figma": [
+        "logos/figma.svg"
+      ],
+      "firebase": [
+        "logos/firebase-icon.svg",
+        "logos/firebase.svg"
+      ],
+      "fly": [
+        "logos/fly-icon.svg",
+        "logos/fly.svg"
+      ],
+      "github": [
+        "logos/github-icon.svg",
+        "logos/github.svg"
+      ],
+      "gitlab": [
+        "logos/gitlab-icon.svg",
+        "logos/gitlab.svg"
+      ],
+      "google-cloud": [
+        "logos/google-cloud.svg"
+      ],
+      "google": [
+        "logos/google-icon.svg",
+        "logos/google.svg"
+      ],
+      "grafana": [
+        "logos/grafana.svg"
+      ],
+      "harness": [
+        "logos/harness-icon.svg",
+        "logos/harness.svg"
+      ],
+      "hashicorp": [
+        "logos/hashicorp-icon.svg",
+        "logos/hashicorp.svg"
+      ],
+      "hasura": [
+        "logos/hasura-icon.svg",
+        "logos/hasura.svg"
+      ],
+      "heroku": [
+        "logos/heroku-icon.svg",
+        "logos/heroku.svg"
+      ],
+      "hubspot": [
+        "logos/hubspot.svg"
+      ],
+      "ibm": [
+        "logos/ibm.svg"
+      ],
+      "incident": [
+        "logos/incident-icon.svg",
+        "logos/incident.svg"
+      ],
+      "insomnia": [
+        "logos/insomnia.svg"
+      ],
+      "instagram": [
+        "logos/instagram-icon.svg",
+        "logos/instagram.svg"
+      ],
+      "intercom": [
+        "logos/intercom-icon.svg",
+        "logos/intercom.svg"
+      ],
+      "jenkins": [
+        "logos/jenkins.svg"
+      ],
+      "jetbrains": [
+        "logos/jetbrains-icon.svg",
+        "logos/jetbrains.svg"
+      ],
+      "jfrog": [
+        "logos/jfrog.svg"
+      ],
+      "jira": [
+        "logos/jira.svg"
+      ],
+      "kubernetes": [
+        "logos/kubernetes.svg"
+      ],
+      "linear": [
+        "logos/linear-icon.svg",
+        "logos/linear.svg"
+      ],
+      "linkedin": [
+        "logos/linkedin-icon.svg",
+        "logos/linkedin.svg"
+      ],
+      "linode": [
+        "logos/linode.svg"
+      ],
+      "mailchimp": [
+        "logos/mailchimp.svg"
+      ],
+      "mailgun": [
+        "logos/mailgun-icon.svg",
+        "logos/mailgun.svg"
+      ],
+      "maven": [
+        "logos/maven.svg"
+      ],
+      "medium": [
+        "logos/medium-icon.svg",
+        "logos/medium.svg"
+      ],
+      "meta": [
+        "logos/meta-icon.svg",
+        "logos/meta.svg"
+      ],
+      "microsoft": [
+        "logos/microsoft-icon.svg",
+        "logos/microsoft.svg"
+      ],
+      "miro": [
+        "logos/miro-icon.svg",
+        "logos/miro.svg"
+      ],
+      "mistral-ai": [
+        "logos/mistral-ai-icon.svg",
+        "logos/mistral-ai.svg"
+      ],
+      "monday": [
+        "logos/monday-icon.svg",
+        "logos/monday.svg"
+      ],
+      "mongodb": [
+        "logos/mongodb-icon.svg",
+        "logos/mongodb.svg"
+      ],
+      "neon": [
+        "logos/neon-icon.svg",
+        "logos/neon.svg"
+      ],
+      "netflix": [
+        "logos/netflix-icon.svg",
+        "logos/netflix.svg"
+      ],
+      "netlify": [
+        "logos/netlify-icon.svg",
+        "logos/netlify.svg"
+      ],
+      "notion": [
+        "logos/notion-icon.svg",
+        "logos/notion.svg"
+      ],
+      "nx": [
+        "logos/nx.svg"
+      ],
+      "okta": [
+        "logos/okta-icon.svg",
+        "logos/okta.svg"
+      ],
+      "openai": [
+        "logos/openai-icon.svg",
+        "logos/openai.svg"
+      ],
+      "opentelemetry": [
+        "logos/opentelemetry-icon.svg",
+        "logos/opentelemetry.svg"
+      ],
+      "opsgenie": [
+        "logos/opsgenie.svg"
+      ],
+      "oracle": [
+        "logos/oracle.svg"
+      ],
+      "pagerduty": [
+        "logos/pagerduty-icon.svg",
+        "logos/pagerduty.svg"
+      ],
+      "paypal": [
+        "logos/paypal.svg"
+      ],
+      "percy": [
+        "logos/percy-icon.svg",
+        "logos/percy.svg"
+      ],
+      "perplexity": [
+        "logos/perplexity-icon.svg",
+        "logos/perplexity.svg"
+      ],
+      "pinecone": [
+        "logos/pinecone-icon.svg",
+        "logos/pinecone.svg"
+      ],
+      "planetscale": [
+        "logos/planetscale.svg"
+      ],
+      "playwright": [
+        "logos/playwright.svg"
+      ],
+      "pnpm": [
+        "logos/pnpm.svg"
+      ],
+      "posthog": [
+        "logos/posthog-icon.svg",
+        "logos/posthog.svg"
+      ],
+      "postman": [
+        "logos/postman-icon.svg",
+        "logos/postman.svg"
+      ],
+      "prisma": [
+        "logos/prisma.svg"
+      ],
+      "prometheus": [
+        "logos/prometheus.svg"
+      ],
+      "pulumi": [
+        "logos/pulumi-icon.svg",
+        "logos/pulumi.svg"
+      ],
+      "pypi": [
+        "logos/pypi.svg"
+      ],
+      "qdrant": [
+        "logos/qdrant-icon.svg",
+        "logos/qdrant.svg"
+      ],
+      "quay": [
+        "logos/quay.svg"
+      ],
+      "reddit": [
+        "logos/reddit-icon.svg",
+        "logos/reddit.svg"
+      ],
+      "redis": [
+        "logos/redis.svg"
+      ],
+      "rollbar": [
+        "logos/rollbar-icon.svg",
+        "logos/rollbar.svg"
+      ],
+      "rubygems": [
+        "logos/rubygems.svg"
+      ],
+      "salesforce": [
+        "logos/salesforce.svg"
+      ],
+      "saucelabs": [
+        "logos/saucelabs.svg"
+      ],
+      "segment": [
+        "logos/segment-icon.svg",
+        "logos/segment.svg"
+      ],
+      "sendgrid": [
+        "logos/sendgrid-icon.svg",
+        "logos/sendgrid.svg"
+      ],
+      "sentry": [
+        "logos/sentry-icon.svg",
+        "logos/sentry.svg"
+      ],
+      "serverless": [
+        "logos/serverless.svg"
+      ],
+      "shopify": [
+        "logos/shopify.svg"
+      ],
+      "singlestore": [
+        "logos/singlestore-icon.svg",
+        "logos/singlestore.svg"
+      ],
+      "slack": [
+        "logos/slack-icon.svg",
+        "logos/slack.svg"
+      ],
+      "snowflake": [
+        "logos/snowflake-icon.svg",
+        "logos/snowflake.svg"
+      ],
+      "snyk": [
+        "logos/snyk.svg"
+      ],
+      "sonarcloud": [
+        "logos/sonarcloud-icon.svg",
+        "logos/sonarcloud.svg"
+      ],
+      "splunk": [
+        "logos/splunk.svg"
+      ],
+      "spotify": [
+        "logos/spotify-icon.svg",
+        "logos/spotify.svg"
+      ],
+      "sst": [
+        "logos/sst-icon.svg",
+        "logos/sst.svg"
+      ],
+      "statuspage": [
+        "logos/statuspage.svg"
+      ],
+      "stoplight": [
+        "logos/stoplight.svg"
+      ],
+      "stripe": [
+        "logos/stripe.svg"
+      ],
+      "stytch": [
+        "logos/stytch.svg"
+      ],
+      "supabase": [
+        "logos/supabase-icon.svg",
+        "logos/supabase.svg"
+      ],
+      "swagger": [
+        "logos/swagger.svg"
+      ],
+      "terraform": [
+        "logos/terraform-icon.svg",
+        "logos/terraform.svg"
+      ],
+      "trello": [
+        "logos/trello.svg"
+      ],
+      "twitter": [
+        "logos/twitter.svg"
+      ],
+      "upstash": [
+        "logos/upstash-icon.svg",
+        "logos/upstash.svg"
+      ],
+      "vault": [
+        "logos/vault-icon.svg",
+        "logos/vault.svg"
+      ],
+      "vercel": [
+        "logos/vercel-icon.svg",
+        "logos/vercel.svg"
+      ],
+      "vultr": [
+        "logos/vultr-icon.svg",
+        "logos/vultr.svg"
+      ],
+      "workos": [
+        "logos/workos-icon.svg",
+        "logos/workos.svg"
+      ],
+      "x": [
+        "logos/x.svg"
+      ],
+      "youtube": [
+        "logos/youtube-icon.svg",
+        "logos/youtube.svg"
+      ],
+      "zendesk": [
+        "logos/zendesk-icon.svg",
+        "logos/zendesk.svg"
+      ],
+      "zoom": [
+        "logos/zoom-icon.svg",
+        "logos/zoom.svg"
+      ]
+    }
+  }
+}

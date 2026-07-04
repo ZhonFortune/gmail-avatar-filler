@@ -1,0 +1,25 @@
+{
+  "name": "gmail-avatar-filler",
+  "private": true,
+  "type": "module",
+  "description": "Generate Gmail contact avatars from brand metadata and open vector logo sources.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/build.js",
+    "build:icons": "node scripts/build-icon-index.js",
+    "build:vcf": "node scripts/build.js",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  },
+  "license": "MIT"
+}
