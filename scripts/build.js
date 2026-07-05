@@ -1,4 +1,4 @@
-import { copyFile, mkdir, readFile, writeFile } from "node:fs/promises";
+import { cp, copyFile, mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import axios from "axios";
@@ -9,8 +9,10 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, "..");
 const brandsPath = path.join(rootDir, "data", "brands.json");
 const iconIndexPath = path.join(rootDir, "data", "icon-index.json");
+const iconsDir = path.join(rootDir, "data", "icons");
 const distDir = path.join(rootDir, "dist");
 const distDataDir = path.join(distDir, "data");
+const distIconsDir = path.join(distDataDir, "icons");
 const outputPath = path.join(distDir, "google-contacts-avatar.vcf");
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/u;
@@ -147,7 +149,11 @@ async function main() {
     const label = `${index + 1}/${normalizedBrands.length} ${brand.name} <${brand.domain}>`;
     logStep(`Resolving ${label}...`);
 
-    const icon = await resolveIconSvg(axios, rawBrand, iconIndex);
+    const icon = await resolveIconSvg(axios, rawBrand, iconIndex, {
+      readLocalSvg(localPath) {
+        return readFile(path.join(iconsDir, localPath), "utf8");
+      }
+    });
     const svg = icon?.svg || createInitialsAvatarSvg(rawBrand);
 
     for (const email of brand.emails) {
@@ -168,6 +174,15 @@ async function main() {
   await mkdir(distDataDir, { recursive: true });
   await copyFile(brandsPath, path.join(distDataDir, "brands.json"));
   await copyFile(iconIndexPath, path.join(distDataDir, "icon-index.json"));
+  await cp(iconsDir, distIconsDir, {
+    recursive: true,
+    force: true,
+    errorOnExist: false
+  }).catch((error) => {
+    if (error?.code !== "ENOENT") {
+      throw error;
+    }
+  });
   await writeFile(outputPath, `${cards.join("\n")}\n`, "utf8");
 
   const elapsedSeconds = ((Date.now() - startedAt) / 1000).toFixed(1);

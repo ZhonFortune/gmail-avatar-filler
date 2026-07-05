@@ -11,6 +11,7 @@
 - 添加会发送产品、账单、安全提醒、订阅或客服邮件的品牌。
 - 品牌变更域名或发信模式后更新发信地址。
 - 上游存在更合适 Logo 时改进 `icon_slug`。
+- 上游没有合适 Logo 时添加本地 SVG 图标。
 - 修正文档、可访问性或小型界面问题。
 
 每个 Pull Request 保持聚焦。只修改数据时，按明确品牌范围提交更容易审查。
@@ -50,11 +51,14 @@
 
 支持的图标源：
 
+0. `data/icons`
 1. `pheralb/svgl`
 2. `VectorLogoZone/vectorlogozone`
 3. `gilbarbara/logos`
 
-优先使用上游 Logo slug。没有可用 Logo 时，构建会生成品牌首字母头像，因此品牌数据仍然可以被接收。
+优先使用上游 Logo slug。上游没有合适 Logo 时，可以将合适的 SVG 图标放到 `data/icons` 目录，并使用小写品牌 slug 命名，例如 Render 使用 `data/icons/render.svg`。本地图标文件名必须与规范化后的 `icon_slug` 一致。
+
+没有命中本地或上游图标索引的品牌会从生成数据中移除。
 
 ## 验证
 

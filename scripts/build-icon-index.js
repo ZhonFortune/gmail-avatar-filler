@@ -1,7 +1,9 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
 
 const brandsPath = "data/brands.json";
 const outputPath = "data/icon-index.json";
+const localIconsDir = "data/icons";
 const sources = {
   svgl: {
     repo: "pheralb/svgl",
@@ -42,6 +44,44 @@ function candidateSlugs(brand) {
   return [...new Set([slug, domainSlug].filter(Boolean))];
 }
 
+function stripSvgExtension(fileName) {
+  return fileName.replace(/\.svg$/iu, "");
+}
+
+async function readLocalIconPaths() {
+  try {
+    const paths = [];
+
+    async function scan(dir) {
+      const entries = await readdir(dir, {
+        withFileTypes: true
+      });
+
+      for (const entry of entries) {
+        const entryPath = path.join(dir, entry.name);
+
+        if (entry.isDirectory()) {
+          await scan(entryPath);
+          continue;
+        }
+
+        if (entry.isFile() && entry.name.toLowerCase().endsWith(".svg")) {
+          paths.push(path.relative(localIconsDir, entryPath).replace(/\\/gu, "/"));
+        }
+      }
+    }
+
+    await scan(localIconsDir);
+    return paths;
+  } catch (error) {
+    if (error?.code === "ENOENT") {
+      return [];
+    }
+
+    throw error;
+  }
+}
+
 async function fetchTree(repo) {
   const response = await fetch(`https://api.github.com/repos/${repo}/git/trees/main?recursive=1`, {
     headers: {
@@ -64,11 +104,23 @@ async function main() {
   const index = {
     generated_at: new Date().toISOString(),
     sources: {
+      local: {},
       svgl: {},
       vectorlogozone: {},
       gilbarbara: {}
     }
   };
+
+  for (const localPath of await readLocalIconPaths()) {
+    const slug = normalizeSlug(stripSvgExtension(path.basename(localPath)));
+
+    if (!slug || !requiredSlugs.has(slug)) {
+      continue;
+    }
+
+    index.sources.local[slug] ||= [];
+    index.sources.local[slug].push(localPath);
+  }
 
   for (const [sourceName, source] of Object.entries(sources)) {
     const paths = await fetchTree(source.repo);

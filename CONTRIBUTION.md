@@ -11,6 +11,7 @@ Useful changes include:
 - Adding a brand that sends product, billing, security, newsletter, or support email.
 - Updating sender addresses after a brand changes domains or email patterns.
 - Improving `icon_slug` when a better match exists in the supported logo sources.
+- Adding a suitable local SVG logo when no upstream logo exists.
 - Fixing documentation, accessibility, or small UI defects.
 
 Keep each pull request focused. Data-only changes are easiest to review when they touch one clear group of brands.
@@ -50,11 +51,14 @@ Example:
 
 Supported logo sources:
 
+0. `data/icons`
 1. `pheralb/svgl`
 2. `VectorLogoZone/vectorlogozone`
 3. `gilbarbara/logos`
 
-Use the upstream logo slug when possible. If no logo is available, the build will generate an initials avatar, so brand data can still be accepted.
+Use the upstream logo slug when possible. If no upstream logo exists, add a suitable SVG logo to `data/icons` and name it with the lowercase brand slug, for example `data/icons/render.svg` for Render. The local filename must match `icon_slug` after normalization.
+
+Brands without a matching local or upstream logo index are removed from generated data.
 
 ## Verification
 

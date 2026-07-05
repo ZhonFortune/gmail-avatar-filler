@@ -77,5 +77,21 @@ jobs:
         with:
           name: ${{ github.ref_name }}
           tag_name: ${{ github.ref_name }}
+          body: |
+            ## 中文
+
+            `google-contacts-avatar.vcf` 是可导入 Google Contacts 的联系人文件，用于让 Gmail 中的品牌通知邮件显示对应品牌头像。
+
+            每一条邮件地址会生成一个独立联系人，确保 Gmail 在收件箱、邮件详情、右键菜单和通知场景中更稳定地匹配头像。
+
+            查看支持的品牌与地址: https://zhonfortune.github.io/gmail-avatar-filler
+
+            ## English
+
+            `google-contacts-avatar.vcf` is a Google Contacts-compatible contact file that helps Gmail show brand avatars for notification email.
+
+            Each email address is generated as one separate contact, improving avatar matching across the Gmail inbox, message view, context menus, and notifications.
+
+            View supported brands and addresses: https://zhonfortune.github.io/gmail-avatar-filler
           files: dist/google-contacts-avatar.vcf
           fail_on_unmatched_files: true

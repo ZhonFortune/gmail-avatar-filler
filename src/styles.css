@@ -386,21 +386,28 @@ svg {
 
 .brand-card {
   min-width: 0;
+  width: 100%;
   display: flex;
   align-items: center;
+  text-align: left;
   gap: 16px;
   padding: 18px;
   border: 1px solid var(--soft-border);
   border-radius: 12px;
+  appearance: none;
   background: #fff;
+  color: inherit;
+  cursor: pointer;
   transition:
     border-color 160ms ease,
     box-shadow 160ms ease,
     transform 160ms ease;
 }
 
-.brand-card:hover {
+.brand-card:hover,
+.brand-card:focus-visible {
   border-color: #bfdbfe;
+  outline: 0;
   box-shadow: 0 14px 28px rgba(37, 99, 235, 0.08);
   transform: translateY(-1px);
 }
@@ -632,6 +639,144 @@ svg {
   font-size: 12px;
 }
 
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(15, 23, 42, 0.42);
+  backdrop-filter: blur(6px);
+}
+
+.brand-dialog {
+  position: relative;
+  width: min(100%, 520px);
+  max-height: min(720px, calc(100vh - 48px));
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 28px 80px rgba(15, 23, 42, 0.24);
+}
+
+.dialog-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #fff;
+  color: #6b7280;
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease;
+}
+
+.dialog-close:hover,
+.dialog-close:focus-visible {
+  border-color: #bfdbfe;
+  outline: 0;
+  color: #111827;
+  background: #f9fafb;
+}
+
+.dialog-close svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.dialog-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 28px 64px 24px 28px;
+  border-bottom: 1px solid var(--soft-border);
+  background: #f9fafb;
+}
+
+.dialog-avatar {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  margin: 0;
+  position: relative;
+  overflow: visible;
+  contain: strict;
+}
+
+.dialog-brand h2 {
+  margin: 0;
+  color: #111827;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 850;
+}
+
+.dialog-brand p {
+  margin: 4px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.dialog-email-section {
+  padding: 24px 28px 28px;
+}
+
+.dialog-email-section h3 {
+  margin: 0 0 14px;
+  color: #111827;
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 850;
+}
+
+.email-list {
+  max-height: min(420px, calc(100vh - 260px));
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.email-list li {
+  min-width: 0;
+  border: 1px solid var(--soft-border);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.email-list code {
+  display: block;
+  padding: 10px 12px;
+  color: #374151;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 13px;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.dialog-empty {
+  margin: 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
 @media (max-width: 900px) {
   .brand-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -706,6 +851,18 @@ svg {
 
   .footer a {
     order: 0;
+  }
+
+  .dialog-backdrop {
+    padding: 16px;
+  }
+
+  .dialog-brand {
+    padding: 24px 58px 22px 22px;
+  }
+
+  .dialog-email-section {
+    padding: 22px;
   }
 }
 

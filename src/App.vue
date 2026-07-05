@@ -1,6 +1,6 @@
 <script setup>
 import axios from "axios";
-import { computed, onMounted, reactive, ref, watch } from "vue";
+import { computed, onBeforeUnmount, onMounted, reactive, ref, watch } from "vue";
 import { createInitialsAvatarSvg, resolveIconSvg, svgToDataUri } from "./lib/iconSources.js";
 
 const messages = {
@@ -21,6 +21,9 @@ const messages = {
     noResultTitle: "未找到相关品牌",
     noResultText: "可在 GitHub 提交数据源补充。",
     sourceLabel: "图标源",
+    emailListTitle: "发件邮箱",
+    emailListEmpty: "暂无发件邮箱",
+    close: "关闭",
     guideSteps: ["下载文件", "导入通讯录", "刷新 Gmail"],
     footer: "基于 MIT 协议开源。",
     disclaimer:
@@ -43,6 +46,9 @@ const messages = {
     noResultTitle: "No matching brand",
     noResultText: "Add a data source on GitHub.",
     sourceLabel: "Logo source",
+    emailListTitle: "Sender email",
+    emailListEmpty: "No sender email",
+    close: "Close",
     guideSteps: ["Download", "Import contacts", "Refresh Gmail"],
     footer: "Open sourced under the MIT License.",
     disclaimer:
@@ -59,6 +65,7 @@ const loading = ref(true);
 const loadError = ref("");
 const stars = ref("—");
 const releaseName = ref("");
+const selectedBrand = ref(null);
 const iconState = reactive({});
 const previewLimit = 12;
 
@@ -84,6 +91,9 @@ const filteredBrands = computed(() => {
 });
 
 const visibleBrands = computed(() => filteredBrands.value.slice(0, previewLimit));
+const selectedBrandEmails = computed(() => {
+  return selectedBrand.value ? createEmails(selectedBrand.value) : [];
+});
 
 function getInitialLanguage() {
   let saved = "";
@@ -114,6 +124,20 @@ function createEmails(brand) {
   const exact = Array.isArray(brand.email) ? brand.email : [];
 
   return [...new Set(exact)];
+}
+
+function openBrandDialog(brand) {
+  selectedBrand.value = brand;
+}
+
+function closeBrandDialog() {
+  selectedBrand.value = null;
+}
+
+function handleKeydown(event) {
+  if (event.key === "Escape") {
+    closeBrandDialog();
+  }
 }
 
 function fallbackAvatar(brand) {
@@ -231,6 +255,11 @@ onMounted(() => {
   loadBrands();
   loadStars();
   loadLatestRelease();
+  window.addEventListener("keydown", handleKeydown);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("keydown", handleKeydown);
 });
 
 watch(
@@ -330,7 +359,7 @@ watch(
           </div>
 
           <div v-else-if="visibleBrands.length" class="brand-grid">
-            <article v-for="brand in visibleBrands" :key="brand.domain" class="brand-card">
+            <button v-for="brand in visibleBrands" :key="brand.domain" class="brand-card" type="button" @click="openBrandDialog(brand)">
               <figure class="brand-avatar">
                 <div
                   v-if="getIconState(brand).loading || !getIconState(brand).url"
@@ -358,7 +387,7 @@ watch(
                   {{ text.sourceLabel }}: {{ getIconState(brand).provider }}
                 </small>
               </div>
-            </article>
+            </button>
           </div>
 
           <div v-else class="empty-state">
@@ -394,5 +423,49 @@ watch(
         </div>
       </div>
     </footer>
+
+    <div v-if="selectedBrand" class="dialog-backdrop" role="presentation" @click.self="closeBrandDialog">
+      <section class="brand-dialog" role="dialog" aria-modal="true" :aria-labelledby="`brand-dialog-${selectedBrand.domain}`">
+        <button class="dialog-close" type="button" :aria-label="text.close" @click="closeBrandDialog">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18" />
+          </svg>
+        </button>
+
+        <div class="dialog-brand">
+          <figure class="dialog-avatar">
+            <div
+              v-if="getIconState(selectedBrand).loading || !getIconState(selectedBrand).url"
+              class="brand-avatar-loading"
+              aria-hidden="true"
+            ></div>
+            <img
+              v-else
+              class="brand-avatar-image"
+              :src="getIconState(selectedBrand).url"
+              :alt="selectedBrand.name"
+              width="64"
+              height="64"
+              decoding="async"
+              @error="handleAvatarError(selectedBrand)"
+            />
+          </figure>
+          <div>
+            <h2 :id="`brand-dialog-${selectedBrand.domain}`">{{ selectedBrand.name }}</h2>
+            <p>{{ selectedBrand.domain }}</p>
+          </div>
+        </div>
+
+        <div class="dialog-email-section">
+          <h3>{{ text.emailListTitle }}</h3>
+          <ul v-if="selectedBrandEmails.length" class="email-list">
+            <li v-for="email in selectedBrandEmails" :key="email">
+              <code>{{ email }}</code>
+            </li>
+          </ul>
+          <p v-else class="dialog-empty">{{ text.emailListEmpty }}</p>
+        </div>
+      </section>
+    </div>
   </div>
 </template>

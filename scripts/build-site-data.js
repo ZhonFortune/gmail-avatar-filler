@@ -1,4 +1,4 @@
-import { copyFile, mkdir } from "node:fs/promises";
+import { cp, copyFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -11,6 +11,15 @@ async function main() {
   await mkdir(distDataDir, { recursive: true });
   await copyFile(path.join(rootDir, "data", "brands.json"), path.join(distDataDir, "brands.json"));
   await copyFile(path.join(rootDir, "data", "icon-index.json"), path.join(distDataDir, "icon-index.json"));
+  await cp(path.join(rootDir, "data", "icons"), path.join(distDataDir, "icons"), {
+    recursive: true,
+    force: true,
+    errorOnExist: false
+  }).catch((error) => {
+    if (error?.code !== "ENOENT") {
+      throw error;
+    }
+  });
 
   console.log("[build:site-data] Copied data files to dist/data.");
 }

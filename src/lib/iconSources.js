@@ -8,6 +8,11 @@ const avatarSpec = {
   darkBackground: "#111827"
 };
 const sourceConfig = {
+  local: {
+    provider: "local",
+    repo: "",
+    branch: ""
+  },
   svgl: {
     provider: "svgl",
     repo: "pheralb/svgl",
@@ -36,6 +41,10 @@ function normalizeSlug(value) {
 
 function unique(values) {
   return [...new Set(values.filter(Boolean))];
+}
+
+function getPublicBaseUrl() {
+  return import.meta.env?.BASE_URL ?? "/";
 }
 
 export function createIconCandidates(iconSlug, domain) {
@@ -86,6 +95,12 @@ export function createIconCandidates(iconSlug, domain) {
 }
 
 function scorePath(source, slug, path) {
+  if (source === "local") {
+    if (path === `${slug}.svg`) return 0;
+    if (path.endsWith(`/${slug}.svg`)) return 1;
+    return 2;
+  }
+
   if (source === "svgl") {
     if (path.endsWith(`/${slug}_light.svg`)) return 0;
     if (path.endsWith(`/${slug}.svg`)) return 1;
@@ -112,7 +127,7 @@ function createIndexedIconCandidates(iconSlug, domain, iconIndex) {
   const slug = normalizeSlug(iconSlug);
   const domainSlug = normalizeSlug(String(domain ?? "").split(".")[0]);
   const slugs = unique([slug, domainSlug]);
-  const sources = ["svgl", "vectorlogozone", "gilbarbara"];
+  const sources = ["local", "svgl", "vectorlogozone", "gilbarbara"];
   const candidates = [];
 
   for (const [sourceIndex, source] of sources.entries()) {
@@ -125,10 +140,13 @@ function createIndexedIconCandidates(iconSlug, domain, iconIndex) {
       });
 
       for (const path of sortedPaths) {
+        const isLocal = source === "local";
+
         candidates.push({
           provider: config.provider,
+          path,
           score: sourceIndex * 10 + scorePath(source, candidateSlug, path),
-          url: `${rawBase}/${config.repo}/${config.branch}/${path}`
+          url: isLocal ? `${getPublicBaseUrl()}data/icons/${path}` : `${rawBase}/${config.repo}/${config.branch}/${path}`
         });
       }
     }
@@ -376,20 +394,21 @@ export function createInitialsAvatarSvg(brand) {
   ].join("");
 }
 
-export async function resolveIconSvg(axiosClient, brand, iconIndex = null) {
+export async function resolveIconSvg(axiosClient, brand, iconIndex = null, options = {}) {
   const indexedCandidates = iconIndex ? createIndexedIconCandidates(brand.icon_slug, brand.domain, iconIndex) : [];
   const candidates = iconIndex ? indexedCandidates : createIconCandidates(brand.icon_slug, brand.domain);
 
   for (const candidate of candidates) {
     try {
-      const response = await axiosClient.get(candidate.url, {
-        responseType: "text",
-        timeout: 10000,
-        transformResponse: [(data) => data],
-        validateStatus: (status) => status >= 200 && status < 300
-      });
-
-      const svg = String(response.data ?? "").trim();
+      const rawSvg = candidate.provider === "local" && options.readLocalSvg
+        ? await options.readLocalSvg(candidate.path)
+        : (await axiosClient.get(candidate.url, {
+            responseType: "text",
+            timeout: 10000,
+            transformResponse: [(data) => data],
+            validateStatus: (status) => status >= 200 && status < 300
+          })).data;
+      const svg = String(rawSvg ?? "").trim();
 
       if (svg.includes("<svg") && isAvatarSvg(svg)) {
         return {
