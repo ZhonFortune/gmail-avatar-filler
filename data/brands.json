@@ -28,33 +28,7 @@
       "team@1password.com",
       "updates@1password.com"
     ],
-    "icon_slug": "1password",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "1password"
   },
   {
     "name": "Adobe",
@@ -85,33 +59,7 @@
       "team@adobe.com",
       "updates@adobe.com"
     ],
-    "icon_slug": "adobe",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "adobe"
   },
   {
     "name": "Adyen",
@@ -142,33 +90,7 @@
       "team@adyen.com",
       "updates@adyen.com"
     ],
-    "icon_slug": "adyen",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "adyen"
   },
   {
     "name": "Airbnb",
@@ -199,33 +121,7 @@
       "team@airbnb.com",
       "updates@airbnb.com"
     ],
-    "icon_slug": "airbnb",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "airbnb"
   },
   {
     "name": "Akamai",
@@ -256,33 +152,7 @@
       "team@akamai.com",
       "updates@akamai.com"
     ],
-    "icon_slug": "akamai",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "akamai"
   },
   {
     "name": "AliExpress",
@@ -313,33 +183,7 @@
       "team@aliexpress.com",
       "updates@aliexpress.com"
     ],
-    "icon_slug": "aliexpress",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "aliexpress"
   },
   {
     "name": "Anthropic",
@@ -370,33 +214,7 @@
       "team@anthropic.com",
       "updates@anthropic.com"
     ],
-    "icon_slug": "anthropic",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "anthropic"
   },
   {
     "name": "Apple",
@@ -427,33 +245,7 @@
       "team@apple.com",
       "updates@apple.com"
     ],
-    "icon_slug": "apple",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "apple"
   },
   {
     "name": "Asana",
@@ -484,33 +276,7 @@
       "team@asana.com",
       "updates@asana.com"
     ],
-    "icon_slug": "asana",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "asana"
   },
   {
     "name": "Atlassian",
@@ -541,33 +307,7 @@
       "team@atlassian.com",
       "updates@atlassian.com"
     ],
-    "icon_slug": "atlassian",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "atlassian"
   },
   {
     "name": "Auth0",
@@ -598,33 +338,7 @@
       "team@auth0.com",
       "updates@auth0.com"
     ],
-    "icon_slug": "auth0",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "auth0"
   },
   {
     "name": "AWS CodeCommit",
@@ -655,33 +369,7 @@
       "team@aws.amazon.com",
       "updates@aws.amazon.com"
     ],
-    "icon_slug": "aws",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "aws"
   },
   {
     "name": "Bitbucket",
@@ -712,33 +400,7 @@
       "team@bitbucket.org",
       "updates@bitbucket.org"
     ],
-    "icon_slug": "bitbucket",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "bitbucket"
   },
   {
     "name": "Bitrise",
@@ -769,33 +431,7 @@
       "team@bitrise.io",
       "updates@bitrise.io"
     ],
-    "icon_slug": "bitrise",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "bitrise"
   },
   {
     "name": "Bitwarden",
@@ -826,33 +462,7 @@
       "team@bitwarden.com",
       "updates@bitwarden.com"
     ],
-    "icon_slug": "bitwarden",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "bitwarden"
   },
   {
     "name": "Box",
@@ -883,33 +493,7 @@
       "team@box.com",
       "updates@box.com"
     ],
-    "icon_slug": "box",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "box"
   },
   {
     "name": "Braze",
@@ -940,33 +524,7 @@
       "team@braze.com",
       "updates@braze.com"
     ],
-    "icon_slug": "braze",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "braze"
   },
   {
     "name": "BrowserStack",
@@ -997,33 +555,7 @@
       "team@browserstack.com",
       "updates@browserstack.com"
     ],
-    "icon_slug": "browserstack",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "browserstack"
   },
   {
     "name": "Bugsnag",
@@ -1054,33 +586,7 @@
       "team@bugsnag.com",
       "updates@bugsnag.com"
     ],
-    "icon_slug": "bugsnag",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "bugsnag"
   },
   {
     "name": "Buildkite",
@@ -1111,33 +617,7 @@
       "team@buildkite.com",
       "updates@buildkite.com"
     ],
-    "icon_slug": "buildkite",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "buildkite"
   },
   {
     "name": "Chargebee",
@@ -1168,33 +648,7 @@
       "team@chargebee.com",
       "updates@chargebee.com"
     ],
-    "icon_slug": "chargebee",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "chargebee"
   },
   {
     "name": "Chromatic",
@@ -1225,33 +679,7 @@
       "team@chromatic.com",
       "updates@chromatic.com"
     ],
-    "icon_slug": "chromatic",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "chromatic"
   },
   {
     "name": "CircleCI",
@@ -1282,33 +710,7 @@
       "team@circleci.com",
       "updates@circleci.com"
     ],
-    "icon_slug": "circleci",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "circleci"
   },
   {
     "name": "ClickUp",
@@ -1339,33 +741,7 @@
       "team@clickup.com",
       "updates@clickup.com"
     ],
-    "icon_slug": "clickup",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "clickup"
   },
   {
     "name": "Cloudflare",
@@ -1396,33 +772,7 @@
       "team@cloudflare.com",
       "updates@cloudflare.com"
     ],
-    "icon_slug": "cloudflare",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "cloudflare"
   },
   {
     "name": "Cloudflare Workers",
@@ -1453,33 +803,7 @@
       "team@workers.cloudflare.com",
       "updates@workers.cloudflare.com"
     ],
-    "icon_slug": "cloudflare",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "cloudflare"
   },
   {
     "name": "Coda",
@@ -1510,33 +834,7 @@
       "team@coda.io",
       "updates@coda.io"
     ],
-    "icon_slug": "coda",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "coda"
   },
   {
     "name": "Codacy",
@@ -1567,33 +865,7 @@
       "team@codacy.com",
       "updates@codacy.com"
     ],
-    "icon_slug": "codacy",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "codacy"
   },
   {
     "name": "Codecov",
@@ -1624,33 +896,7 @@
       "team@codecov.io",
       "updates@codecov.io"
     ],
-    "icon_slug": "codecov",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "codecov"
   },
   {
     "name": "Cohere",
@@ -1681,33 +927,7 @@
       "team@cohere.com",
       "updates@cohere.com"
     ],
-    "icon_slug": "cohere",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "cohere"
   },
   {
     "name": "Convex",
@@ -1738,33 +958,7 @@
       "team@convex.dev",
       "updates@convex.dev"
     ],
-    "icon_slug": "convex",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "convex"
   },
   {
     "name": "Cypress",
@@ -1795,33 +989,7 @@
       "team@cypress.io",
       "updates@cypress.io"
     ],
-    "icon_slug": "cypress",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "cypress"
   },
   {
     "name": "Datadog",
@@ -1852,33 +1020,7 @@
       "team@datadoghq.com",
       "updates@datadoghq.com"
     ],
-    "icon_slug": "datadoghq",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "datadoghq"
   },
   {
     "name": "Deno Deploy",
@@ -1909,33 +1051,7 @@
       "team@deno.com",
       "updates@deno.com"
     ],
-    "icon_slug": "deno",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "deno"
   },
   {
     "name": "DigitalOcean",
@@ -1966,33 +1082,7 @@
       "team@digitalocean.com",
       "updates@digitalocean.com"
     ],
-    "icon_slug": "digitalocean",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "digitalocean"
   },
   {
     "name": "Discord",
@@ -2023,33 +1113,7 @@
       "team@discord.com",
       "updates@discord.com"
     ],
-    "icon_slug": "discord",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "discord"
   },
   {
     "name": "Docker",
@@ -2080,33 +1144,7 @@
       "team@docker.com",
       "updates@docker.com"
     ],
-    "icon_slug": "docker",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "docker"
   },
   {
     "name": "Docker Hub",
@@ -2137,33 +1175,7 @@
       "team@hub.docker.com",
       "updates@hub.docker.com"
     ],
-    "icon_slug": "docker",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "docker"
   },
   {
     "name": "Drone",
@@ -2194,33 +1206,7 @@
       "team@drone.io",
       "updates@drone.io"
     ],
-    "icon_slug": "drone",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "drone"
   },
   {
     "name": "Dropbox",
@@ -2251,33 +1237,7 @@
       "team@dropbox.com",
       "updates@dropbox.com"
     ],
-    "icon_slug": "dropbox",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "dropbox"
   },
   {
     "name": "eBay",
@@ -2308,33 +1268,7 @@
       "team@ebay.com",
       "updates@ebay.com"
     ],
-    "icon_slug": "ebay",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "ebay"
   },
   {
     "name": "Fastly Compute",
@@ -2365,33 +1299,7 @@
       "team@fastly.com",
       "updates@fastly.com"
     ],
-    "icon_slug": "fastly",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "fastly"
   },
   {
     "name": "Fauna",
@@ -2422,33 +1330,7 @@
       "team@fauna.com",
       "updates@fauna.com"
     ],
-    "icon_slug": "fauna",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "fauna"
   },
   {
     "name": "Figma",
@@ -2479,33 +1361,7 @@
       "team@figma.com",
       "updates@figma.com"
     ],
-    "icon_slug": "figma",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "figma"
   },
   {
     "name": "Firebase",
@@ -2536,33 +1392,7 @@
       "team@firebase.google.com",
       "updates@firebase.google.com"
     ],
-    "icon_slug": "google",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "google"
   },
   {
     "name": "Fly.io",
@@ -2593,33 +1423,7 @@
       "team@fly.io",
       "updates@fly.io"
     ],
-    "icon_slug": "fly",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "fly"
   },
   {
     "name": "GitHub",
@@ -2650,33 +1454,7 @@
       "team@github.com",
       "updates@github.com"
     ],
-    "icon_slug": "github",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "github"
   },
   {
     "name": "GitLab",
@@ -2707,33 +1485,7 @@
       "team@gitlab.com",
       "updates@gitlab.com"
     ],
-    "icon_slug": "gitlab",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "gitlab"
   },
   {
     "name": "Google",
@@ -2764,33 +1516,7 @@
       "team@google.com",
       "updates@google.com"
     ],
-    "icon_slug": "google",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "google"
   },
   {
     "name": "Google Accounts",
@@ -2821,33 +1547,7 @@
       "team@accounts.google.com",
       "updates@accounts.google.com"
     ],
-    "icon_slug": "google",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "google"
   },
   {
     "name": "Google Cloud Source Repositories",
@@ -2878,33 +1578,7 @@
       "team@cloud.google.com",
       "updates@cloud.google.com"
     ],
-    "icon_slug": "google-cloud",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "google-cloud"
   },
   {
     "name": "Grafana",
@@ -2935,33 +1609,7 @@
       "team@grafana.com",
       "updates@grafana.com"
     ],
-    "icon_slug": "grafana",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "grafana"
   },
   {
     "name": "Groq",
@@ -2992,33 +1640,7 @@
       "team@groq.com",
       "updates@groq.com"
     ],
-    "icon_slug": "groq",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "groq"
   },
   {
     "name": "Harness",
@@ -3049,33 +1671,7 @@
       "team@harness.io",
       "updates@harness.io"
     ],
-    "icon_slug": "harness",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "harness"
   },
   {
     "name": "HashiCorp Vault",
@@ -3106,33 +1702,7 @@
       "team@hashicorp.com",
       "updates@hashicorp.com"
     ],
-    "icon_slug": "vault",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "vault"
   },
   {
     "name": "Hasura",
@@ -3163,33 +1733,7 @@
       "team@hasura.io",
       "updates@hasura.io"
     ],
-    "icon_slug": "hasura",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "hasura"
   },
   {
     "name": "Heroku",
@@ -3220,33 +1764,7 @@
       "team@heroku.com",
       "updates@heroku.com"
     ],
-    "icon_slug": "heroku",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "heroku"
   },
   {
     "name": "Hoppscotch",
@@ -3277,33 +1795,7 @@
       "team@hoppscotch.io",
       "updates@hoppscotch.io"
     ],
-    "icon_slug": "hoppscotch",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "hoppscotch"
   },
   {
     "name": "HubSpot",
@@ -3334,33 +1826,7 @@
       "team@hubspot.com",
       "updates@hubspot.com"
     ],
-    "icon_slug": "hubspot",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "hubspot"
   },
   {
     "name": "IBM Cloud",
@@ -3391,33 +1857,7 @@
       "team@ibm.com",
       "updates@ibm.com"
     ],
-    "icon_slug": "ibm",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "ibm"
   },
   {
     "name": "Incident.io",
@@ -3448,33 +1888,7 @@
       "team@incident.io",
       "updates@incident.io"
     ],
-    "icon_slug": "incident",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "incident"
   },
   {
     "name": "Insomnia",
@@ -3505,33 +1919,7 @@
       "team@insomnia.rest",
       "updates@insomnia.rest"
     ],
-    "icon_slug": "insomnia",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "insomnia"
   },
   {
     "name": "Instagram",
@@ -3562,33 +1950,7 @@
       "team@instagram.com",
       "updates@instagram.com"
     ],
-    "icon_slug": "instagram",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "instagram"
   },
   {
     "name": "Intercom",
@@ -3619,33 +1981,7 @@
       "team@intercom.com",
       "updates@intercom.com"
     ],
-    "icon_slug": "intercom",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "intercom"
   },
   {
     "name": "Jenkins",
@@ -3676,33 +2012,7 @@
       "team@jenkins.io",
       "updates@jenkins.io"
     ],
-    "icon_slug": "jenkins",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "jenkins"
   },
   {
     "name": "JFrog",
@@ -3733,33 +2043,7 @@
       "team@jfrog.com",
       "updates@jfrog.com"
     ],
-    "icon_slug": "jfrog",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "jfrog"
   },
   {
     "name": "Jira",
@@ -3790,33 +2074,7 @@
       "team@jira.com",
       "updates@jira.com"
     ],
-    "icon_slug": "jira",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "jira"
   },
   {
     "name": "Kubernetes",
@@ -3847,33 +2105,7 @@
       "team@kubernetes.io",
       "updates@kubernetes.io"
     ],
-    "icon_slug": "kubernetes",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "kubernetes"
   },
   {
     "name": "Lemon Squeezy",
@@ -3904,33 +2136,7 @@
       "team@lemonsqueezy.com",
       "updates@lemonsqueezy.com"
     ],
-    "icon_slug": "lemonsqueezy",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "lemonsqueezy"
   },
   {
     "name": "Linear",
@@ -3961,33 +2167,7 @@
       "team@linear.app",
       "updates@linear.app"
     ],
-    "icon_slug": "linear",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "linear"
   },
   {
     "name": "LinkedIn",
@@ -4018,33 +2198,7 @@
       "team@linkedin.com",
       "updates@linkedin.com"
     ],
-    "icon_slug": "linkedin",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "linkedin"
   },
   {
     "name": "Linode",
@@ -4075,33 +2229,7 @@
       "team@linode.com",
       "updates@linode.com"
     ],
-    "icon_slug": "linode",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "linode"
   },
   {
     "name": "Mailchimp",
@@ -4132,33 +2260,7 @@
       "team@mailchimp.com",
       "updates@mailchimp.com"
     ],
-    "icon_slug": "mailchimp",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "mailchimp"
   },
   {
     "name": "Mailgun",
@@ -4189,33 +2291,7 @@
       "team@mailgun.com",
       "updates@mailgun.com"
     ],
-    "icon_slug": "mailgun",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "mailgun"
   },
   {
     "name": "Maven Central",
@@ -4246,33 +2322,7 @@
       "team@mvnrepository.com",
       "updates@mvnrepository.com"
     ],
-    "icon_slug": "maven",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "maven"
   },
   {
     "name": "Medium",
@@ -4303,33 +2353,7 @@
       "team@medium.com",
       "updates@medium.com"
     ],
-    "icon_slug": "medium",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "medium"
   },
   {
     "name": "Meta",
@@ -4360,33 +2384,7 @@
       "team@meta.com",
       "updates@meta.com"
     ],
-    "icon_slug": "meta",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "meta"
   },
   {
     "name": "Microsoft",
@@ -4417,33 +2415,7 @@
       "team@microsoft.com",
       "updates@microsoft.com"
     ],
-    "icon_slug": "microsoft",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "microsoft"
   },
   {
     "name": "Microsoft Azure",
@@ -4474,33 +2446,7 @@
       "team@azure.microsoft.com",
       "updates@azure.microsoft.com"
     ],
-    "icon_slug": "azure",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "azure"
   },
   {
     "name": "Microsoft Teams",
@@ -4531,33 +2477,7 @@
       "team@teams.microsoft.com",
       "updates@teams.microsoft.com"
     ],
-    "icon_slug": "microsoft",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "microsoft"
   },
   {
     "name": "Mintlify",
@@ -4588,33 +2508,7 @@
       "team@mintlify.com",
       "updates@mintlify.com"
     ],
-    "icon_slug": "mintlify",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "mintlify"
   },
   {
     "name": "Miro",
@@ -4645,33 +2539,7 @@
       "team@miro.com",
       "updates@miro.com"
     ],
-    "icon_slug": "miro",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "miro"
   },
   {
     "name": "Mistral AI",
@@ -4702,33 +2570,7 @@
       "team@mistral.ai",
       "updates@mistral.ai"
     ],
-    "icon_slug": "mistral-ai",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "mistral-ai"
   },
   {
     "name": "Monday.com",
@@ -4759,33 +2601,7 @@
       "team@monday.com",
       "updates@monday.com"
     ],
-    "icon_slug": "monday",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "monday"
   },
   {
     "name": "MongoDB",
@@ -4816,33 +2632,7 @@
       "team@mongodb.com",
       "updates@mongodb.com"
     ],
-    "icon_slug": "mongodb",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "mongodb"
   },
   {
     "name": "Neon",
@@ -4873,33 +2663,7 @@
       "team@neon.tech",
       "updates@neon.tech"
     ],
-    "icon_slug": "neon",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "neon"
   },
   {
     "name": "Netflix",
@@ -4930,33 +2694,7 @@
       "team@netflix.com",
       "updates@netflix.com"
     ],
-    "icon_slug": "netflix",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "netflix"
   },
   {
     "name": "Netlify",
@@ -4987,33 +2725,7 @@
       "team@netlify.com",
       "updates@netlify.com"
     ],
-    "icon_slug": "netlify",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "netlify"
   },
   {
     "name": "New Relic",
@@ -5044,33 +2756,7 @@
       "team@newrelic.com",
       "updates@newrelic.com"
     ],
-    "icon_slug": "newrelic",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "newrelic"
   },
   {
     "name": "Notion",
@@ -5101,33 +2787,7 @@
       "team@notion.so",
       "updates@notion.so"
     ],
-    "icon_slug": "notion",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "notion"
   },
   {
     "name": "npm",
@@ -5158,33 +2818,7 @@
       "team@npmjs.com",
       "updates@npmjs.com"
     ],
-    "icon_slug": "npmjs",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "npmjs"
   },
   {
     "name": "NuGet",
@@ -5215,33 +2849,7 @@
       "team@nuget.org",
       "updates@nuget.org"
     ],
-    "icon_slug": "nuget",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "nuget"
   },
   {
     "name": "Nx Cloud",
@@ -5272,33 +2880,7 @@
       "team@nx.app",
       "updates@nx.app"
     ],
-    "icon_slug": "nx",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "nx"
   },
   {
     "name": "Okta",
@@ -5329,33 +2911,7 @@
       "team@okta.com",
       "updates@okta.com"
     ],
-    "icon_slug": "okta",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "okta"
   },
   {
     "name": "OpenAI",
@@ -5386,33 +2942,7 @@
       "team@openai.com",
       "updates@openai.com"
     ],
-    "icon_slug": "openai",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "openai"
   },
   {
     "name": "OpenTelemetry",
@@ -5443,33 +2973,7 @@
       "team@opentelemetry.io",
       "updates@opentelemetry.io"
     ],
-    "icon_slug": "opentelemetry",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "opentelemetry"
   },
   {
     "name": "Opsgenie",
@@ -5500,33 +3004,7 @@
       "team@opsgenie.com",
       "updates@opsgenie.com"
     ],
-    "icon_slug": "opsgenie",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "opsgenie"
   },
   {
     "name": "Oracle Cloud",
@@ -5557,33 +3035,7 @@
       "team@oracle.com",
       "updates@oracle.com"
     ],
-    "icon_slug": "oracle",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "oracle"
   },
   {
     "name": "PagerDuty",
@@ -5614,33 +3066,7 @@
       "team@pagerduty.com",
       "updates@pagerduty.com"
     ],
-    "icon_slug": "pagerduty",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "pagerduty"
   },
   {
     "name": "PayPal",
@@ -5671,33 +3097,7 @@
       "team@paypal.com",
       "updates@paypal.com"
     ],
-    "icon_slug": "paypal",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "paypal"
   },
   {
     "name": "Percy",
@@ -5728,33 +3128,7 @@
       "team@percy.io",
       "updates@percy.io"
     ],
-    "icon_slug": "percy",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "percy"
   },
   {
     "name": "Perplexity",
@@ -5785,33 +3159,7 @@
       "team@perplexity.ai",
       "updates@perplexity.ai"
     ],
-    "icon_slug": "perplexity",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "perplexity"
   },
   {
     "name": "Pinecone",
@@ -5842,33 +3190,7 @@
       "team@pinecone.io",
       "updates@pinecone.io"
     ],
-    "icon_slug": "pinecone",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "pinecone"
   },
   {
     "name": "PlanetScale",
@@ -5899,33 +3221,7 @@
       "team@planetscale.com",
       "updates@planetscale.com"
     ],
-    "icon_slug": "planetscale",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "planetscale"
   },
   {
     "name": "Playwright",
@@ -5956,33 +3252,7 @@
       "team@playwright.dev",
       "updates@playwright.dev"
     ],
-    "icon_slug": "playwright",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "playwright"
   },
   {
     "name": "pnpm",
@@ -6013,33 +3283,7 @@
       "team@pnpm.io",
       "updates@pnpm.io"
     ],
-    "icon_slug": "pnpm",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "pnpm"
   },
   {
     "name": "PostHog",
@@ -6070,33 +3314,7 @@
       "team@posthog.com",
       "updates@posthog.com"
     ],
-    "icon_slug": "posthog",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "posthog"
   },
   {
     "name": "Postman",
@@ -6127,33 +3345,7 @@
       "team@postman.com",
       "updates@postman.com"
     ],
-    "icon_slug": "postman",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "postman"
   },
   {
     "name": "Prisma",
@@ -6184,33 +3376,7 @@
       "team@prisma.io",
       "updates@prisma.io"
     ],
-    "icon_slug": "prisma",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "prisma"
   },
   {
     "name": "Prometheus",
@@ -6241,33 +3407,7 @@
       "team@prometheus.io",
       "updates@prometheus.io"
     ],
-    "icon_slug": "prometheus",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "prometheus"
   },
   {
     "name": "Pulumi",
@@ -6298,33 +3438,7 @@
       "team@pulumi.com",
       "updates@pulumi.com"
     ],
-    "icon_slug": "pulumi",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "pulumi"
   },
   {
     "name": "PyPI",
@@ -6355,33 +3469,7 @@
       "team@pypi.org",
       "updates@pypi.org"
     ],
-    "icon_slug": "pypi",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "pypi"
   },
   {
     "name": "Qdrant",
@@ -6412,33 +3500,7 @@
       "team@qdrant.tech",
       "updates@qdrant.tech"
     ],
-    "icon_slug": "qdrant",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "qdrant"
   },
   {
     "name": "Quay",
@@ -6469,33 +3531,7 @@
       "team@quay.io",
       "updates@quay.io"
     ],
-    "icon_slug": "quay",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "quay"
   },
   {
     "name": "Railway",
@@ -6526,33 +3562,7 @@
       "team@railway.app",
       "updates@railway.app"
     ],
-    "icon_slug": "railway",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "railway"
   },
   {
     "name": "Reddit",
@@ -6583,33 +3593,7 @@
       "team@reddit.com",
       "updates@reddit.com"
     ],
-    "icon_slug": "reddit",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "reddit"
   },
   {
     "name": "Redis",
@@ -6640,33 +3624,7 @@
       "team@redis.io",
       "updates@redis.io"
     ],
-    "icon_slug": "redis",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "redis"
   },
   {
     "name": "Replicate",
@@ -6697,33 +3655,7 @@
       "team@replicate.com",
       "updates@replicate.com"
     ],
-    "icon_slug": "replicate",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "replicate"
   },
   {
     "name": "Rollbar",
@@ -6754,33 +3686,7 @@
       "team@rollbar.com",
       "updates@rollbar.com"
     ],
-    "icon_slug": "rollbar",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "rollbar"
   },
   {
     "name": "RubyGems",
@@ -6811,33 +3717,7 @@
       "team@rubygems.org",
       "updates@rubygems.org"
     ],
-    "icon_slug": "rubygems",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "rubygems"
   },
   {
     "name": "Salesforce",
@@ -6868,33 +3748,7 @@
       "team@salesforce.com",
       "updates@salesforce.com"
     ],
-    "icon_slug": "salesforce",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "salesforce"
   },
   {
     "name": "Sauce Labs",
@@ -6925,33 +3779,7 @@
       "team@saucelabs.com",
       "updates@saucelabs.com"
     ],
-    "icon_slug": "saucelabs",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "saucelabs"
   },
   {
     "name": "Segment",
@@ -6982,33 +3810,7 @@
       "team@segment.com",
       "updates@segment.com"
     ],
-    "icon_slug": "segment",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "segment"
   },
   {
     "name": "SendGrid",
@@ -7039,33 +3841,7 @@
       "team@sendgrid.com",
       "updates@sendgrid.com"
     ],
-    "icon_slug": "sendgrid",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "sendgrid"
   },
   {
     "name": "Sentry",
@@ -7096,33 +3872,7 @@
       "team@sentry.io",
       "updates@sentry.io"
     ],
-    "icon_slug": "sentry",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "sentry"
   },
   {
     "name": "Serverless Framework",
@@ -7153,33 +3903,7 @@
       "team@serverless.com",
       "updates@serverless.com"
     ],
-    "icon_slug": "serverless",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "serverless"
   },
   {
     "name": "Shopify",
@@ -7210,33 +3934,7 @@
       "team@shopify.com",
       "updates@shopify.com"
     ],
-    "icon_slug": "shopify",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "shopify"
   },
   {
     "name": "SingleStore",
@@ -7267,33 +3965,7 @@
       "team@singlestore.com",
       "updates@singlestore.com"
     ],
-    "icon_slug": "singlestore",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "singlestore"
   },
   {
     "name": "Slack",
@@ -7324,33 +3996,7 @@
       "team@slack.com",
       "updates@slack.com"
     ],
-    "icon_slug": "slack",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "slack"
   },
   {
     "name": "Snowflake",
@@ -7381,33 +4027,7 @@
       "team@snowflake.com",
       "updates@snowflake.com"
     ],
-    "icon_slug": "snowflake",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "snowflake"
   },
   {
     "name": "Snyk",
@@ -7438,33 +4058,7 @@
       "team@snyk.io",
       "updates@snyk.io"
     ],
-    "icon_slug": "snyk",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "snyk"
   },
   {
     "name": "SonarCloud",
@@ -7495,33 +4089,7 @@
       "team@sonarcloud.io",
       "updates@sonarcloud.io"
     ],
-    "icon_slug": "sonarcloud",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "sonarcloud"
   },
   {
     "name": "Splunk",
@@ -7552,33 +4120,7 @@
       "team@splunk.com",
       "updates@splunk.com"
     ],
-    "icon_slug": "splunk",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "splunk"
   },
   {
     "name": "Spotify",
@@ -7609,33 +4151,7 @@
       "team@spotify.com",
       "updates@spotify.com"
     ],
-    "icon_slug": "spotify",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "spotify"
   },
   {
     "name": "SST",
@@ -7666,33 +4182,7 @@
       "team@sst.dev",
       "updates@sst.dev"
     ],
-    "icon_slug": "sst",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "sst"
   },
   {
     "name": "Statuspage",
@@ -7723,33 +4213,7 @@
       "team@statuspage.io",
       "updates@statuspage.io"
     ],
-    "icon_slug": "statuspage",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "statuspage"
   },
   {
     "name": "Stoplight",
@@ -7780,33 +4244,7 @@
       "team@stoplight.io",
       "updates@stoplight.io"
     ],
-    "icon_slug": "stoplight",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "stoplight"
   },
   {
     "name": "Stripe",
@@ -7837,33 +4275,7 @@
       "team@stripe.com",
       "updates@stripe.com"
     ],
-    "icon_slug": "stripe",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "stripe"
   },
   {
     "name": "Supabase",
@@ -7894,33 +4306,7 @@
       "team@supabase.com",
       "updates@supabase.com"
     ],
-    "icon_slug": "supabase",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "supabase"
   },
   {
     "name": "Swagger",
@@ -7951,33 +4337,7 @@
       "team@swagger.io",
       "updates@swagger.io"
     ],
-    "icon_slug": "swagger",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "swagger"
   },
   {
     "name": "TeamCity",
@@ -8008,33 +4368,7 @@
       "team@jetbrains.com",
       "updates@jetbrains.com"
     ],
-    "icon_slug": "jetbrains",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "jetbrains"
   },
   {
     "name": "Terraform Cloud",
@@ -8065,33 +4399,7 @@
       "team@terraform.io",
       "updates@terraform.io"
     ],
-    "icon_slug": "terraform",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "terraform"
   },
   {
     "name": "Trello",
@@ -8122,33 +4430,7 @@
       "team@trello.com",
       "updates@trello.com"
     ],
-    "icon_slug": "trello",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "trello"
   },
   {
     "name": "Twitter",
@@ -8179,33 +4461,7 @@
       "team@twitter.com",
       "updates@twitter.com"
     ],
-    "icon_slug": "x",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "x"
   },
   {
     "name": "Uber",
@@ -8236,33 +4492,7 @@
       "team@uber.com",
       "updates@uber.com"
     ],
-    "icon_slug": "uber",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "uber"
   },
   {
     "name": "Upstash",
@@ -8293,33 +4523,7 @@
       "team@upstash.com",
       "updates@upstash.com"
     ],
-    "icon_slug": "upstash",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "upstash"
   },
   {
     "name": "Vercel",
@@ -8350,33 +4554,7 @@
       "team@vercel.com",
       "updates@vercel.com"
     ],
-    "icon_slug": "vercel",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "vercel"
   },
   {
     "name": "Vultr",
@@ -8407,33 +4585,7 @@
       "team@vultr.com",
       "updates@vultr.com"
     ],
-    "icon_slug": "vultr",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "vultr"
   },
   {
     "name": "WorkOS",
@@ -8464,33 +4616,7 @@
       "team@workos.com",
       "updates@workos.com"
     ],
-    "icon_slug": "workos",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "workos"
   },
   {
     "name": "X",
@@ -8521,33 +4647,7 @@
       "team@x.com",
       "updates@x.com"
     ],
-    "icon_slug": "x",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "x"
   },
   {
     "name": "Yarn",
@@ -8578,33 +4678,7 @@
       "team@yarnpkg.com",
       "updates@yarnpkg.com"
     ],
-    "icon_slug": "yarnpkg",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "yarnpkg"
   },
   {
     "name": "YouTube",
@@ -8635,33 +4709,7 @@
       "team@youtube.com",
       "updates@youtube.com"
     ],
-    "icon_slug": "youtube",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "youtube"
   },
   {
     "name": "Zoom",
@@ -8692,32 +4740,6 @@
       "team@zoom.us",
       "updates@zoom.us"
     ],
-    "icon_slug": "zoom",
-    "prefixes": [
-      "account",
-      "accounts",
-      "alert",
-      "alerts",
-      "billing",
-      "contact",
-      "do-not-reply",
-      "donotreply",
-      "hello",
-      "help",
-      "info",
-      "invoice",
-      "mail",
-      "newsletter",
-      "no-reply",
-      "noreply",
-      "notification",
-      "notifications",
-      "notify",
-      "receipts",
-      "security",
-      "support",
-      "team",
-      "updates"
-    ]
+    "icon_slug": "zoom"
   }
 ]

@@ -24,11 +24,7 @@ Required fields:
 - `name`: Public brand name.
 - `domain`: Sender domain, lowercase.
 - `icon_slug`: Preferred logo slug from an upstream logo source.
-- `prefixes`: Sender local parts used to generate addresses.
-
-Optional fields:
-
-- `email`: Exact sender addresses that should always be included when prefixes are not enough.
+- `email`: Verified sender addresses.
 
 Example:
 
@@ -36,17 +32,15 @@ Example:
 {
   "name": "Example",
   "domain": "example.com",
-  "email": ["security@example.com"],
-  "icon_slug": "example",
-  "prefixes": ["billing", "support"]
+  "email": ["security@example.com", "billing@example.com"],
+  "icon_slug": "example"
 }
 ```
 
 ## Data Rules
 
 - Use factual sender metadata only.
-- Keep domains and prefixes lowercase.
-- Add exact addresses when a sender uses a subdomain, unusual local part, or one-off address.
+- Keep domains and email addresses lowercase.
 - Keep `icon_slug` close to the upstream logo file name.
 - Prefer widely used sender addresses over private, regional, or account-specific addresses.
 - Do not add personal email addresses, tracking addresses, leaked data, or mailbox exports.
@@ -74,7 +68,7 @@ This validates brand data and writes `dist/google-contacts-avatar.vcf`.
 
 ## Pull Request Checklist
 
-- Brand names, domains, prefixes, and exact emails are factual.
+- Brand names, domains, and exact emails are factual.
 - New values are lowercase where required.
 - No private user data or copied image assets are included.
 - The build command completes locally.

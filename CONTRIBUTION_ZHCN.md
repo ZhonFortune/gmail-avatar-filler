@@ -24,11 +24,7 @@
 - `name`：公开品牌名称。
 - `domain`：发信域名，使用小写。
 - `icon_slug`：来自上游图标源的优先 Logo slug。
-- `prefixes`：用于生成邮箱地址的本地部分。
-
-可选字段：
-
-- `email`：当前缀无法完整表达时必须保留的完整发信地址。
+- `email`：已验证的完整发信地址。
 
 示例：
 
@@ -36,17 +32,15 @@
 {
   "name": "Example",
   "domain": "example.com",
-  "email": ["security@example.com"],
-  "icon_slug": "example",
-  "prefixes": ["billing", "support"]
+  "email": ["security@example.com", "billing@example.com"],
+  "icon_slug": "example"
 }
 ```
 
 ## 数据规则
 
 - 只使用事实性的发信元数据。
-- 域名和前缀保持小写。
-- 发信地址使用子域名、特殊本地部分或一次性地址时，写入 `email`。
+- 域名和邮箱地址保持小写。
 - `icon_slug` 贴近上游图标文件名。
 - 优先添加广泛使用的发信地址，避免私有、区域限定或账号专属地址。
 - 不要添加个人邮箱、追踪地址、泄露数据或邮箱导出内容。
@@ -74,7 +68,7 @@ npm run build:vcf
 
 ## Pull Request 检查清单
 
-- 品牌名称、域名、前缀和完整邮箱均有事实依据。
+- 品牌名称、域名和完整邮箱均有事实依据。
 - 需要小写的字段已经使用小写。
 - 未包含私人用户数据或复制的图片素材。
 - 本地构建命令可以完成。

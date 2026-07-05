@@ -4,6 +4,16 @@ on:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/deploy.yml"
+      - "data/**"
+      - "index.html"
+      - "package.json"
+      - "public/**"
+      - "scripts/build-icon-index.js"
+      - "scripts/build-site-data.js"
+      - "src/**"
+      - "vite.config.js"
   workflow_dispatch:
 
 permissions:

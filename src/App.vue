@@ -112,10 +112,8 @@ function setLanguage(value) {
 
 function createEmails(brand) {
   const exact = Array.isArray(brand.email) ? brand.email : [];
-  const prefixes = Array.isArray(brand.prefixes) ? brand.prefixes : [];
-  const generated = prefixes.map((prefix) => `${prefix}@${brand.domain}`);
 
-  return [...new Set([...exact, ...generated])];
+  return [...new Set(exact)];
 }
 
 function fallbackAvatar(brand) {

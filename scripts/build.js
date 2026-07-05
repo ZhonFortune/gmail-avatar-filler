@@ -15,7 +15,6 @@ const outputPath = path.join(distDir, "google-contacts-avatar.vcf");
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/u;
 const domainPattern = /^(?!-)(?:[a-z0-9-]{1,63}\.)+[a-z]{2,63}$/u;
-const prefixPattern = /^[a-z0-9._%+-]+$/u;
 
 function logStep(message) {
   console.log(`[build:vcf] ${message}`);
@@ -77,12 +76,25 @@ function createVCard({ name, domain, emails, svg }) {
   ].join("\n");
 }
 
+function createSenderContactName(name, email) {
+  const localPart = email.split("@")[0];
+  const normalizedLocalPart = localPart
+    .replace(/[._+-]+/gu, " ")
+    .replace(/\s+/gu, " ")
+    .trim();
+
+  if (!normalizedLocalPart) {
+    return name;
+  }
+
+  return `${name} ${normalizedLocalPart}`;
+}
+
 function normalizeBrand(rawBrand, index) {
   const name = assertString(rawBrand.name, "name", index);
   const domain = assertString(rawBrand.domain, "domain", index).toLowerCase();
   const iconSlug = assertString(rawBrand.icon_slug, "icon_slug", index).toLowerCase();
   const emails = uniqueStrings(rawBrand.email ?? [], "email", index);
-  const prefixes = uniqueStrings(rawBrand.prefixes ?? [], "prefixes", index);
 
   if (!domainPattern.test(domain)) {
     throw new Error(`Brand "${name}" has an invalid domain.`);
@@ -94,19 +106,15 @@ function normalizeBrand(rawBrand, index) {
     }
   }
 
-  for (const prefix of prefixes) {
-    if (!prefixPattern.test(prefix)) {
-      throw new Error(`Brand "${name}" has an invalid prefix: ${prefix}`);
-    }
+  if (emails.length === 0) {
+    throw new Error(`Brand "${name}" must include at least one verified sender email.`);
   }
-
-  const generatedEmails = prefixes.map((prefix) => `${prefix}@${domain}`);
 
   return {
     name,
     domain,
     iconSlug,
-    emails: [...new Set([...emails, ...generatedEmails])]
+    emails
   };
 }
 
@@ -142,16 +150,18 @@ async function main() {
     const icon = await resolveIconSvg(axios, rawBrand, iconIndex);
     const svg = icon?.svg || createInitialsAvatarSvg(rawBrand);
 
-    cards.push(
-      createVCard({
-        name: brand.name,
-        domain: brand.domain,
-        emails: brand.emails,
-        svg
-      })
-    );
+    for (const email of brand.emails) {
+      cards.push(
+        createVCard({
+          name: createSenderContactName(brand.name, email),
+          domain: brand.domain,
+          emails: [email],
+          svg
+        })
+      );
+    }
 
-    logStep(`Generated 1 contact with ${brand.emails.length} emails for ${brand.name} using ${icon?.provider || "initials fallback"}.`);
+    logStep(`Generated ${brand.emails.length} sender contacts for ${brand.name} using ${icon?.provider || "initials fallback"}.`);
   }
 
   logStep("Writing output files...");
@@ -161,7 +171,7 @@ async function main() {
   await writeFile(outputPath, `${cards.join("\n")}\n`, "utf8");
 
   const elapsedSeconds = ((Date.now() - startedAt) / 1000).toFixed(1);
-  logStep(`Generated ${cards.length} brand contacts with ${totalEmails} email addresses at ${path.relative(rootDir, outputPath)} in ${elapsedSeconds}s.`);
+  logStep(`Generated ${cards.length} sender contacts with ${totalEmails} email addresses at ${path.relative(rootDir, outputPath)} in ${elapsedSeconds}s.`);
 }
 
 main().catch((error) => {
