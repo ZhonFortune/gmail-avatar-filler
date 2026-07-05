@@ -1,5 +1,7 @@
 # Gmail Avatar Filler
 
+![Gmail Avatar Filler](./public/banner.png)
+
 [English](README.md)
 
 Gmail Avatar Filler 帮助社区让 Gmail 中的通知邮件更容易识别。项目会生成兼容 Google Contacts 的 `.vcf` 通讯录文件，将常见品牌发信地址映射为清晰的圆形头像。

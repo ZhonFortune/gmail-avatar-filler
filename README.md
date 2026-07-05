@@ -1,5 +1,7 @@
 # Gmail Avatar Filler
 
+![Gmail Avatar Filler](./public/banner.png)
+
 [中文文档](README_ZHCN.md)
 
 Gmail Avatar Filler helps the community make notification email easier to recognize in Gmail. It generates a Google Contacts-compatible `.vcf` contact file that maps common brand sender addresses to clean circular avatars.
